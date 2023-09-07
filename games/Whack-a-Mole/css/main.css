@@ -9,8 +9,8 @@ body {
 }
 
 #board {
-    width: 660px;
-    height: 660px;
+    width: 540px;
+    height: 540px;
     /* background-color: green; */
 
     margin: 0 auto;
@@ -36,8 +36,8 @@ body {
 
 #board div {
     /* board 3x3 có width x heigh <=> 540px x 540px, thì div mỗi cái là 540 / 3  = 180px  */
-    width: 220px;
-    height: 220px;
+    width: 180px;
+    height: 180px;
     background-image: url("../img/pipe.png");
     -webkit-background-size: 50px 50px;
        -moz-background-size: 50px;
