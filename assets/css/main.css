@@ -6,6 +6,7 @@
 */
 
 @import url("roboto.css");
+@import url("tooltip.css");
 
 * {
     -webkit-box-sizing: border-box;
@@ -138,6 +139,8 @@ a {
 }
 
 .games .row .card {
+    position: relative;
+    /* cursor: pointer; */
     width: 350px;
     padding: 1em;
     margin: 1.5em;
