@@ -5,6 +5,13 @@
 * Browsers: last 1000 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 1000 version
+*/
+
 @import url("roboto.css");
 
 * {
@@ -109,26 +116,29 @@ a {
 }
 
 .games .row {
-    /* display: -ms-grid; */
-    /* display: grid; */
-    /* -ms-grid-columns: 1fr 1fr 1fr; */
-    /* grid-template-columns: 1fr 1fr 1fr; */
-
     width: 100%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-            justify-content: space-around;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+       -moz-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
+
+    margin-left: -webkit-calc(100% / 30);
+
+    margin-left: -moz-calc(100% / 30);
+
+    margin-left: calc(100% / 30);
 }
 
-.columns-3 > * {
+.games .row > * {
     width: -webkit-calc(100% / 3);
     width: -moz-calc(100% / 3);
     width: calc(100% / 3);
