@@ -28,9 +28,9 @@
     /* margin-top: -50px; */
     /* margin-left: 35px; */
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 50%;
-    transform: translate(-50%, -80%);
+    transform: translateX(-53%);
 }
 
 [data-tooltip]:not([data-tooltip-persistent])::before {
