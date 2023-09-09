@@ -3,7 +3,7 @@ export const DATA_HTML_CSS_JS = [
     {
         tooltip: "A,D hoặc Arrow(Left, Right) để di chuyển qua lại, Space để chơi lại",
         img: "assets/img/games/Doodler-Jump.PNG",
-        subTitle: "Doodle-Jump",
+        subTitle: "Doodle Nhảy",
         githubRepo: "https://github.com/kitajima2910/PXH2910/tree/master/games/Doodle-Jump",
         live: "games/Doodle-Jump/index.html"
     },
