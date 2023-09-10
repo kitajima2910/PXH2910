@@ -10,8 +10,8 @@
     <!-- https://fontawesome.com/icons -->
     <link rel="stylesheet" href="assets/css/all.css">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/files.css">
     <link rel="stylesheet" href="assets/css/main.css">
-    <!-- <link rel="stylesheet" href="assets/css/tooltip.css"> -->
 </head>
 
 <body>
@@ -30,6 +30,100 @@
                 miễn phí ^_^</p>
             <p>Cập nhật: 2023-09-08</p>
         </div>
+
+        <div class="note">Để mở menu, bạn hãy nhấn chuột phải hoặc sử dụng phím E</div>
+
+        <ul class="menu">
+            <li class="menu-item">
+                <button type="button" class="menu-btn" DLHome="DLHome">
+                    <i class="fa-solid fa-house" DLHome="DLHome"></i>
+                    <span class="menu-text" DLHome="DLHome">Trang chủ</span>
+                </button>
+            </li>
+            <!-- <li class="menu-item menu-item-disabled">
+                <button type="button" class="menu-btn">
+                    <span class="menu-text">Open in New Window</span>
+                </button>
+            </li> -->
+            <li class="menu-separator"></li>
+            <!-- <li class="menu-item">
+                <button type="button" class="menu-btn">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <span class="menu-text">HTML CSS JS: Game</span>
+                </button>
+            </li> -->
+            <!-- <li class="menu-item">
+                <button type="button" class="menu-btn">
+                    <i class="fa fa-star"></i>
+                    <span class="menu-text">Favorite</span>
+                </button>
+            </li> -->
+            <li class="menu-item menu-item-submenu">
+                <button type="button" class="menu-btn">
+                    <i class="fa-brands fa-square-js"></i>
+                    <span class="menu-text">HTML CSS JavaScript</span>
+                </button>
+                <ul class="menu">
+                    <li class="menu-item">
+                        <button type="button" class="menu-btn">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span class="menu-text">Game</span>
+                        </button>
+                    </li>
+                    <!-- <li class="menu-item menu-item-submenu">
+                        <button type="button" class="menu-btn">
+                            <i class="fa fa-share"></i>
+                            <span class="menu-text">Share</span>
+                        </button>
+                        <ul class="menu">
+                            <li class="menu-item">
+                                <button type="button" class="menu-btn">
+                                    <i class="fa fa-twitter"></i>
+                                    <span class="menu-text">Twitter</span>
+                                </button>
+                            </li>
+                            <li class="menu-item">
+                                <button type="button" class="menu-btn">
+                                    <i class="fa fa-facebook-official"></i>
+                                    <span class="menu-text">Facebook</span>
+                                </button>
+                            </li>
+                            <li class="menu-item">
+                                <button type="button" class="menu-btn">
+                                    <i class="fa fa-google-plus"></i>
+                                    <span class="menu-text">Google Plus</span>
+                                </button>
+                            </li>
+                            <li class="menu-item">
+                                <button type="button" class="menu-btn">
+                                    <i class="fa fa-envelope"></i>
+                                    <span class="menu-text">Email</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </li> -->
+                </ul>
+            </li>
+            <!-- <li class="menu-separator"></li> -->
+            <!-- <li class="menu-item">
+                <button type="button" class="menu-btn">
+                    <i class="fa fa-download"></i>
+                    <span class="menu-text">Save</span>
+                </button>
+            </li> -->
+            <!-- <li class="menu-item">
+                <button type="button" class="menu-btn">
+                    <i class="fa fa-edit"></i>
+                    <span class="menu-text">Rename</span>
+                </button>
+            </li> -->
+            <!-- <li class="menu-item">
+                <button type="button" class="menu-btn">
+                    <i class="fa fa-trash"></i>
+                    <span class="menu-text">Delete</span>
+                </button>
+            </li> -->
+        </ul>
 
         <div class="games">
             <div class="html-css-js">
@@ -56,6 +150,7 @@
     </div>
 
     <script type="module" src="assets/js/main.js"></script>
+    <script src="widgets/menu-tools/js/main.js"></script>
 </body>
 
 </html>
