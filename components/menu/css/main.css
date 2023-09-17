@@ -1,5 +1,5 @@
 /* Menu */
-.menu {
+.component-menu .menu {
     position: absolute;
     width: 200px;
     padding: 2px;
@@ -12,17 +12,17 @@
     background: linear-gradient(to bottom, #fff 0%, #e5e5e5 100px, #e5e5e5 100%);
     z-index: 100;
     -webkit-border-radius: 3px;
-       -moz-border-radius: 3px;
-            border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
     -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
-       -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
-            box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
     opacity: 0;
     -webkit-transform: translate(0, 15px) scale(.95);
-       -moz-transform: translate(0, 15px) scale(.95);
-        -ms-transform: translate(0, 15px) scale(.95);
-         -o-transform: translate(0, 15px) scale(.95);
-            transform: translate(0, 15px) scale(.95);
+    -moz-transform: translate(0, 15px) scale(.95);
+    -ms-transform: translate(0, 15px) scale(.95);
+    -o-transform: translate(0, 15px) scale(.95);
+    transform: translate(0, 15px) scale(.95);
     -webkit-transition: opacity 0.1s ease-out, -webkit-transform 0.1s ease-out;
     transition: opacity 0.1s ease-out, -webkit-transform 0.1s ease-out;
     -o-transition: opacity 0.1s ease-out, -o-transform 0.1s ease-out;
@@ -32,7 +32,7 @@
     pointer-events: none;
 }
 
-.menu-item {
+.component-menu .menu-item {
     display: block;
     position: relative;
     margin: 0;
@@ -40,7 +40,7 @@
     white-space: nowrap;
 }
 
-.menu-btn {
+.component-menu .menu-btn {
     display: block;
     color: #444;
     font-family: 'Roboto', sans-serif;
@@ -50,11 +50,11 @@
     white-space: nowrap;
     padding: 6px 8px;
     -webkit-border-radius: 3px;
-       -moz-border-radius: 3px;
-            border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
 }
 
-button.menu-btn {
+.component-menu button.menu-btn {
     background: none;
     line-height: normal;
     overflow: visible;
@@ -65,28 +65,28 @@ button.menu-btn {
     text-align: left;
 }
 
-a.menu-btn {
+.component-menu a.menu-btn {
     outline: 0 none;
     text-decoration: none;
 }
 
-.menu-text {
+.component-menu .menu-text {
     margin-left: 25px;
 }
 
-.menu-btn .fa,
-.menu-btn i {
+.component-menu .menu-btn .fa,
+.component-menu .menu-btn i {
     position: absolute;
     left: 8px;
     top: 50%;
     -webkit-transform: translateY(-50%);
-       -moz-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-         -o-transform: translateY(-50%);
-            transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
-.menu-item:hover>.menu-btn {
+.component-menu .menu-item:hover>.menu-btn {
     color: #fff;
     outline: none;
     background-color: #2E3940;
@@ -98,16 +98,16 @@ a.menu-btn {
     border: 1px solid #2E3940;
 }
 
-.menu-item-disabled {
+.component-menu .menu-item-disabled {
     opacity: .5;
     pointer-events: none;
 }
 
-.menu-item-disabled .menu-btn {
+.component-menu .menu-item-disabled .menu-btn {
     cursor: default;
 }
 
-.menu-separator {
+.component-menu .menu-separator {
     display: block;
     margin: 7px 5px;
     height: 1px;
@@ -115,43 +115,43 @@ a.menu-btn {
     background-color: #aaa;
 }
 
-.menu-item-submenu::after {
+.component-menu .menu-item-submenu::after {
     content: "";
     position: absolute;
     right: 6px;
     top: 50%;
     -webkit-transform: translateY(-50%);
-       -moz-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-         -o-transform: translateY(-50%);
-            transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
     border: 5px solid transparent;
     border-left-color: #808080;
 }
 
-.menu-item-submenu:hover::after {
+.component-menu .menu-item-submenu:hover::after {
     border-left-color: #fff;
 }
 
-.menu .menu {
+.component-menu .menu .menu {
     top: 4px;
     left: 99%;
 }
 
-.menu-show,
-.menu-item:hover>.menu {
+.component-menu .menu-show,
+.component-menu .menu-item:hover>.menu {
     opacity: 1;
     -webkit-transform: translate(0, 0) scale(1);
-       -moz-transform: translate(0, 0) scale(1);
-        -ms-transform: translate(0, 0) scale(1);
-         -o-transform: translate(0, 0) scale(1);
-            transform: translate(0, 0) scale(1);
+    -moz-transform: translate(0, 0) scale(1);
+    -ms-transform: translate(0, 0) scale(1);
+    -o-transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(1);
     pointer-events: auto;
 }
 
-.menu-item:hover>.menu {
+.component-menu .menu-item:hover>.menu {
     -webkit-transition-delay: 300ms;
-       -moz-transition-delay: 300ms;
-         -o-transition-delay: 300ms;
-            transition-delay: 300ms;
+    -moz-transition-delay: 300ms;
+    -o-transition-delay: 300ms;
+    transition-delay: 300ms;
 }
