@@ -14,7 +14,9 @@ export const getComponent = (data = { component: { html, selector }, css, js }) 
 
     // Add file html to tag selector
     $.get(`${data.component.html}`, (html) => {
-        $(`${data.component.selector}`).html(html);
+        setTimeout(() => {
+            $(`${data.component.selector}`).html(html);
+        }, 100)
     });
 
     // Add file js to tag body
