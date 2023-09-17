@@ -3,27 +3,28 @@
  * 
  * @param {Object} data 
  */
-export const getComponent = (data = { component: { html, selector }, css, js }) => {
+export const getComponent = (data = { component: { html, selector }, css, js }, delay = 100) => {
 
     // Add file css to tag head
     $.get(`${data.css}`, (css) => {
-        if(data.js !== "") {
+        if (data.js !== "") {
             $("head").append(`<link rel="stylesheet" href="${data.css}">`);
         }
     });
 
-    // Add file html to tag selector
-    $.get(`${data.component.html}`, (html) => {
-        setTimeout(() => {
+    setTimeout(() => {
+        // Add file html to tag selector
+        $.get(`${data.component.html}`, (html) => {
             $(`${data.component.selector}`).html(html);
-        }, 100)
-    });
+        });
+    }, delay - 50);
 
-    // Add file js to tag body
-    $.get(`${data.js}`, (js) => {
-        if(data.js !== "") {
-            $("body").append(`<script type="module" src="${data.js}"></script>`);
-        }
-    });
-
+    setTimeout(() => {
+        // Add file js to tag body
+        $.get(`${data.js}`, (js) => {
+            if (data.js !== "") {
+                $("body").append(`<script type="module" src="${data.js}"></script>`);
+            }
+        });
+    }, delay);
 };
