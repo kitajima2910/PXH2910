@@ -1,47 +1,47 @@
-let menu = document.querySelector('.menu');
-let mouseX = 0
-let mouseY = 0
+$(document).ready(() => {
+    let menu = $(".menu")[0];
+    let mouseX = 0
+    let mouseY = 0
 
-document.addEventListener("mousemove", (e) => {
-    mouseX = e.pageX
-    mouseY = e.pageY
+    $(document).on("mousemove", (e) => {
+        mouseX = e.pageX
+        mouseY = e.pageY
+    });
+
+    const showMenu = (x, y) => {
+        menu.style.left = x + 'px';
+        menu.style.top = y + 'px';
+        $(".menu").first().addClass("menu-show");
+    }
+
+    const hideMenu = () => {
+        $(".menu").first().removeClass("menu-show");
+    }
+
+    const onContextMenu = (e) => {
+        e.preventDefault();
+        showMenu(e.pageX, e.pageY);
+        $(document).on("mousedown", onMouseDown);
+    }
+
+    const onMouseDown = (e) => {
+
+        let dataLink = $(e.target).attr("DLHome");
+
+        switch (dataLink) {
+            case "DLHome": window.location.href = "https://kitajima2910.github.io/PXH2910/"; break;
+        }
+
+        hideMenu();
+        $(document).off("mousedown", onMouseDown);
+    }
+
+    $(document).on("contextmenu", onContextMenu);
+
+    $(document.body).on("keydown", (e) => {
+        if (e.code == "KeyE") {
+            showMenu(mouseX, mouseY);
+            $(document).on("mousedown", onMouseDown);
+        }
+    });
 });
-
-function showMenu(x, y) {
-    menu.style.left = x + 'px';
-    menu.style.top = y + 'px';
-    menu.classList.add('menu-show');
-}
-
-function hideMenu() {
-    menu.classList.remove('menu-show');
-}
-
-function onContextMenu(e) {
-    e.preventDefault();
-    showMenu(e.pageX, e.pageY);
-    document.addEventListener('mousedown', onMouseDown, false);
-}
-
-function onMouseDown(e) {
-
-    let dataLink = e.target.getAttribute("DLHome");
-
-    switch (dataLink) {
-        case "DLHome": window.location.href = "https://kitajima2910.github.io/PXH2910/"; break;
-    }
-
-    hideMenu();
-    document.removeEventListener('mousedown', onMouseDown);
-}
-
-document.addEventListener('contextmenu', onContextMenu, false);
-
-document.body.addEventListener("keydown", (e) => {
-
-    if (e.code == "KeyE") {
-        showMenu(mouseX, mouseY);
-        document.addEventListener('mousedown', onMouseDown, false);
-    }
-
-}, false);

@@ -1,7 +1,7 @@
 import * as common from "./common.js";
 
-$(document).ready(function () {
-
+$(document).ready(() => {
+    
     // Get about.component.html
     common.getComponent({
         css: "components/about/css/main.css",
