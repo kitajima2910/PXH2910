@@ -3,7 +3,7 @@
  * 
  * @param {Object} data 
  */
-export const getComponent = (data = { component: { html, selector }, css, js }, delay = 100) => {
+export const getComponent = (data = { component: { html, selector }, css, imports, js }, delay = 100) => {
 
     // Add file css to tag head
     $.get(`${data.css}`, (css) => {
@@ -21,9 +21,21 @@ export const getComponent = (data = { component: { html, selector }, css, js }, 
 
     setTimeout(() => {
         // Add file js to tag body
+        
+        if (data.imports !== undefined) {
+            for (let element of data.imports) {
+                $.get(`${data.imports}`, (js) => {
+                    $("head").append(`<script defer src="${element}"></script>`);
+                });
+            }
+        }
+
+        // Delay
+        setTimeout(() => { }, 10);
+
         $.get(`${data.js}`, (js) => {
             if (data.js !== "") {
-                $("body").append(`<script type="module" src="${data.js}"></script>`);
+                $("body").append(`<script defer src="${data.js}"></script>`);
             }
         });
     }, delay);

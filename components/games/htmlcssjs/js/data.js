@@ -1,5 +1,4 @@
-// HTML CSS JS
-export const DATA_HTML_CSS_JS = [
+var DATA_HTML_CSS_JS = [
     {
         tooltip: "A,D hoặc Arrow(Left, Right) để di chuyển qua lại, Space để chơi lại",
         img: "assets/img/games/Doodler-Jump.PNG",

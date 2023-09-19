@@ -32,4 +32,17 @@ $(document).ready(() => {
         js: "components/menu/js/main.js"
     });
 
+    // Get htmlcssjs.component.html
+    common.getComponent({
+        css: "components/games/htmlcssjs/css/main.css",
+        component: {
+            html: "components/games/htmlcssjs/htmlcssjs.component.html",
+            selector: ".component-htmlcssjs"
+        },
+        imports: [
+            "components/games/htmlcssjs/js/data.js"
+        ],
+        js: "components/games/htmlcssjs/js/main.js"
+    });
+
 });
