@@ -44,5 +44,4 @@ $(document).ready(() => {
         ],
         js: "components/games/htmlcssjs/js/main.js"
     });
-
 });
