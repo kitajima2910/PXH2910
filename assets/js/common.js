@@ -1,5 +1,3 @@
-
-
 /**
  * Get component
  * 
