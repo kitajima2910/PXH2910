@@ -42,11 +42,11 @@
 /* ssMenu Default Theme */
 
 .ss-menu.default {
-	background: #0e3248;
+	background: #000000;
 }
 
 .ss-menu.default ul li:hover {
-	background: #e00032;
+	background: #00BE06;
 }
 
 .ss-menu.default ul li a {
@@ -63,7 +63,7 @@
 
 .ss-menu ul li {
 	white-space: nowrap;
-	border-radius: 0 30px 30px 0;
+	/* border-radius: 0 30px 30px 0; */
 	margin: 0 10px 0 0;
 	overflow: hidden;
 }
@@ -74,7 +74,7 @@
 	color: rgba(255, 255, 255, 0.85);
 	text-decoration: none;
 	-webkit-tap-highlight-color: transparent;
-	padding: 15px 10px;
+	padding: 15px 5px;
 	display: block;
 	border-bottom: 1px dotted rgba(255, 255, 255, 0.05);
 	font-size: 14px;
