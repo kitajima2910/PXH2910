@@ -29,6 +29,9 @@ $(document).ready(() => {
             html: "components/menu/menu.component.html",
             selector: ".component-menu"
         },
+        imports: [
+            "components/menu/js/jquery.ss.menu.js"
+        ],
         js: "components/menu/js/main.js"
     });
 
