@@ -55,8 +55,6 @@ $(document).ready(function () {
         selectorParent: ".ss-menu",
         initRoutes: initRoutes,
         pageDefault: { func: true, process: routeComponent }
-    })
-
-    sessionStorage.setItem("TEST on GITHUB");
+    }, 500);
 
 });
