@@ -31,6 +31,10 @@ body {
     background-color: white;
 }
 
+.virtual-numbers img {
+    aspect-ratio: 224 / 30;
+}
+
 a {
     text-decoration: none;
 }
