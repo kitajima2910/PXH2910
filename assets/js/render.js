@@ -27,7 +27,7 @@ $(document).ready(function () {
 
 
     // Use for routes
-    function routeComponent() {
+    function routeHTMLCSSJSComponent() {
 
         // Get htmlcssjs.component.html
         common.getComponent({
@@ -47,14 +47,14 @@ $(document).ready(function () {
     // Setup routes
     const initRoutes = {
         "Service": { func: false, process: "pages/service.page.html" },
-        "HTML5-CSS-JS": { func: true, process: routeComponent },
+        "HTML5-CSS-JS": { func: true, process: routeHTMLCSSJSComponent },
         "Contact": { func: false, process: "pages/contact.page.html" },
     };
 
     common.setRoute({
         selectorParent: ".ss-menu",
         initRoutes: initRoutes,
-        pageDefault: { func: true, process: routeComponent }
+        pageDefault: { func: true, process: routeHTMLCSSJSComponent }
     }, 500);
 
 });
