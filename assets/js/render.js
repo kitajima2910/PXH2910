@@ -57,4 +57,6 @@ $(document).ready(function () {
         pageDefault: { func: true, process: routeComponent }
     })
 
+    sessionStorage.setItem("TEST on GITHUB");
+
 });
