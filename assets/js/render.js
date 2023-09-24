@@ -1,7 +1,7 @@
 import * as common from "./common.js";
 
-$(document).ready(() => {
-    
+$(document).ready(function () {
+
     // Get about.component.html
     common.getComponent({
         css: "components/about/css/main.css",
@@ -10,16 +10,6 @@ $(document).ready(() => {
             selector: ".component-about"
         },
         js: "components/about/js/main.js"
-    });
-
-    // Get note.component.html
-    common.getComponent({
-        css: "components/note/css/main.css",
-        component: {
-            html: "components/note/note.component.html",
-            selector: ".component-note"
-        },
-        js: "components/note/js/main.js"
     });
 
     // Get menu.component.html
@@ -35,16 +25,36 @@ $(document).ready(() => {
         js: "components/menu/js/main.js"
     });
 
-    // Get htmlcssjs.component.html
-    common.getComponent({
-        css: "components/games/htmlcssjs/css/main.css",
-        component: {
-            html: "components/games/htmlcssjs/htmlcssjs.component.html",
-            selector: ".component-htmlcssjs"
-        },
-        imports: [
-            "components/games/htmlcssjs/js/data.js"
-        ],
-        js: "components/games/htmlcssjs/js/main.js"
-    });
+
+    // Use for routes
+    function routeComponent() {
+
+        // Get htmlcssjs.component.html
+        common.getComponent({
+            css: "components/games/htmlcssjs/css/main.css",
+            component: {
+                html: "components/games/htmlcssjs/htmlcssjs.component.html",
+                selector: ".component-content"
+            },
+            imports: [
+                "components/games/htmlcssjs/js/data.js"
+            ],
+            js: "components/games/htmlcssjs/js/main.js"
+        });
+
+    };
+
+    // Setup routes
+    const initRoutes = {
+        "Service": { func: false, process: "pages/service.page.html" },
+        "HTML5-CSS-JS": { func: true, process: routeComponent },
+        "Contact": { func: false, process: "pages/contact.page.html" },
+    };
+
+    common.setRoute({
+        selectorParent: ".ss-menu",
+        initRoutes: initRoutes,
+        pageDefault: { func: true, process: routeComponent }
+    })
+
 });
