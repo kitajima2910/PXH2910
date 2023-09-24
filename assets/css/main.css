@@ -32,7 +32,8 @@ body {
 }
 
 .virtual-numbers img {
-    aspect-ratio: 224 / 30;
+    width: 224px;
+    height: 30px;
 }
 
 a {
