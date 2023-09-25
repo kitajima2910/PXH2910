@@ -6,10 +6,7 @@ $(document).ready(function () {
 
     while (window.render < 1) {
 
-        // Display none
-        common.delayRender([
-            [".component-menu", false]
-        ]);
+        // ############################ Load HTML - JS - CSS ############################
 
         common.loadJSHeader([
             // menu.component.html
@@ -63,6 +60,10 @@ $(document).ready(function () {
 
         };
 
+        // ############################ Load HTML - JS - CSS ############################
+
+        // ############################ Routes ############################
+
         // Init routes
         const initRoutes = {
             "Service": { func: false, process: "pages/service.page.html" },
@@ -76,12 +77,12 @@ $(document).ready(function () {
             pageDefault: { func: true, process: routeHTMLCSSJSComponent }
         }, 500);
 
+        // ############################ Routes ############################
+
         // Display block
-        setTimeout(function () {
-            common.delayRender([
-                [".component-menu", true]
-            ]);
-        }, 550);
+        common.delayRender([
+            ".component-menu"
+        ], 550);
 
         window.render++;
     }

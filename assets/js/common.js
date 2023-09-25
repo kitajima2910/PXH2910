@@ -142,8 +142,10 @@ export function loadHTMLBody(data = []) {
  * 
  * @param {Array} data 
  */
-export function delayRender(data = []) {
-    for (let element of data) {
-        $(element[0]).css("display", element[1] ? "block" : "none");
-    }
+export function delayRender(data = [], delay = 300) {
+    setTimeout(function () {
+        for (let element of data) {
+            $(element).css("display", "block");
+        }
+    }, delay)
 }
