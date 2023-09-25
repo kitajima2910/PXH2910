@@ -41,17 +41,14 @@ export function setRoute(data = { selectorParent, initRoutes, pageDefault: { fun
             const dataObj = data.initRoutes[dataHref];
 
             sessionStorage.setItem("route", dataHref);
-
-            setTimeout(function() {
-                if (dataObj.func) {
-                    dataObj.process();
-                } else {
-                    $.get(dataObj.process, (html) => {
-                        $(".component-content").html(html);
-                    });
-                }
-            }, delay - 50);
             
+            if (dataObj.func) {
+                dataObj.process();
+            } else {
+                $.get(dataObj.process, (html) => {
+                    $(".component-content").html(html);
+                });
+            }
         });
 
     }, delay);
