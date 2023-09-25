@@ -6,11 +6,14 @@ $(document).ready(function () {
 
     while (window.render < 1) {
 
-        // ############################ Load HTML - JS - CSS ############################
+        common.delayRender([
+            [".component-menu", false]
+        ]);
+
         common.loadJSHeader([
             // menu.component.html
             "components/menu/js/jquery.ss.menu.js",
-
+            
             // htmlcssjs.component.html
             "components/games/htmlcssjs/js/data.js"
         ]);
@@ -26,23 +29,13 @@ $(document).ready(function () {
             "components/games/htmlcssjs/css/main.css"
         ]);
 
-        common.loadJSBody([
-            // about.component.html
-            "components/about/js/main.js",
-
-            // menu.component.html
-            "components/menu/js/main.js",
-
-            // htmlcssjs.component.html
-            "components/games/htmlcssjs/js/main.js"
-        ]);
-
         // Get about.component.html
         common.getComponent({
             component: {
                 html: "components/about/about.component.html",
                 selector: ".component-about"
             },
+            js: "components/about/js/main.js"
         });
 
         // Get menu.component.html
@@ -51,6 +44,7 @@ $(document).ready(function () {
                 html: "components/menu/menu.component.html",
                 selector: ".component-menu"
             },
+            js: "components/menu/js/main.js"
         });
 
 
@@ -63,17 +57,11 @@ $(document).ready(function () {
                     html: "components/games/htmlcssjs/htmlcssjs.component.html",
                     selector: ".component-content"
                 },
+                js: "components/games/htmlcssjs/js/main.js"
             });
 
         };
 
-        // Load default
-        // setTimeout(function () {
-        //     routeHTMLCSSJSComponent();
-        // }, 500);
-        // ############################ Load HTML - JS - CSS ############################
-
-        // ############################ Routes ############################
         // Init routes
         const initRoutes = {
             "Service": { func: false, process: "pages/service.page.html" },
@@ -85,16 +73,14 @@ $(document).ready(function () {
             selectorParent: ".ss-menu",
             initRoutes: initRoutes,
             pageDefault: { func: true, process: routeHTMLCSSJSComponent }
-        });
-        // ############################ Routes ############################
+        }, 500);
 
-        // Display block
+        // Delay render
         common.delayRender([
             ".component-menu"
-        ], 1000);
+        ], 550);
 
         window.render++;
-        console.log("Render: ", window.render);
     }
 
 
