@@ -75,14 +75,14 @@ $(document).ready(function () {
             selectorParent: ".ss-menu",
             initRoutes: initRoutes,
             pageDefault: { func: true, process: routeHTMLCSSJSComponent }
-        }, 500);
+        }, 700);
 
         // ############################ Routes ############################
 
         // Display block
         common.delayRender([
             ".component-menu"
-        ], 550);
+        ], 750);
 
         window.render++;
     }
