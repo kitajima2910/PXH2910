@@ -61,7 +61,7 @@ $(document).ready(function () {
                 selectorParent: ".ss-menu",
                 initRoutes: initRoutes,
                 pageDefault: { func: true, process: routeHTMLCSSJSComponent }
-            }, 500);
+            }, 700);
 
         }
 
@@ -69,12 +69,10 @@ $(document).ready(function () {
             processRender();
         } catch (error) {
             processRender();
-            window.render = 0;
         }
 
 
         window.render++;
-        console.clear();
     }
 
 

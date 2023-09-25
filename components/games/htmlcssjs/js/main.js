@@ -91,10 +91,8 @@ $(document).ready(() => {
             processRender();
         } catch (error) {
             processRender();
-            window.htmlcssjs = 0;
         }
 
         window.htmlcssjs++;
-        console.clear();
     };
 });

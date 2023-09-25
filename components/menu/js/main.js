@@ -11,10 +11,8 @@ $(document).ready(function () {
             processRender();
         } catch (error) {
             processRender();
-            window.menu = 0;
         }
 
         window.menu++;
-        console.clear();
     };
 });
