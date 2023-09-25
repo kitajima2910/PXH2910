@@ -135,3 +135,15 @@ export function loadHTMLBody(data = []) {
         });
     }
 }
+
+/**
+ * 
+ * Delay render
+ * 
+ * @param {Array} data 
+ */
+export function delayRender(data = []) {
+    for (let element of data) {
+        $(element[0]).css("display", element[1] ? "block" : "none");
+    }
+}

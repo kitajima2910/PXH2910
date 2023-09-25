@@ -6,10 +6,15 @@ $(document).ready(function () {
 
     while (window.render < 1) {
 
+        // Display none
+        common.delayRender([
+            [".component-menu", false]
+        ]);
+
         common.loadJSHeader([
             // menu.component.html
             "components/menu/js/jquery.ss.menu.js",
-            
+
             // htmlcssjs.component.html
             "components/games/htmlcssjs/js/data.js"
         ]);
@@ -44,7 +49,7 @@ $(document).ready(function () {
         });
 
 
-        // Use for routes
+        // Route HTML CSS JS Component
         function routeHTMLCSSJSComponent() {
 
             // Get htmlcssjs.component.html
@@ -58,7 +63,7 @@ $(document).ready(function () {
 
         };
 
-        // Setup routes
+        // Init routes
         const initRoutes = {
             "Service": { func: false, process: "pages/service.page.html" },
             "HTML5-CSS-JS": { func: true, process: routeHTMLCSSJSComponent },
@@ -70,6 +75,13 @@ $(document).ready(function () {
             initRoutes: initRoutes,
             pageDefault: { func: true, process: routeHTMLCSSJSComponent }
         }, 500);
+
+        // Display block
+        setTimeout(function () {
+            common.delayRender([
+                [".component-menu", true]
+            ]);
+        }, 550);
 
         window.render++;
     }
