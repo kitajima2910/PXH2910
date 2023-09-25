@@ -87,7 +87,7 @@ export function getComponent(data = { component: { html, selector }, css, import
     // Add file js to tag body
     $.get(`${data.js}`, function (js) {
         if (data.js !== "") {
-            $("body").delay(delay).append(`<script defer src="${data.js}"></script>`);
+            $("body").append(`<script defer src="${data.js}"></script>`);
         }
     });
 };

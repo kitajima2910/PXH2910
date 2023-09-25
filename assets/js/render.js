@@ -61,7 +61,7 @@ $(document).ready(function () {
                 selectorParent: ".ss-menu",
                 initRoutes: initRoutes,
                 pageDefault: { func: true, process: routeHTMLCSSJSComponent }
-            }, 1000);
+            });
 
         }
 
