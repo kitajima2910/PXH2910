@@ -89,7 +89,7 @@ export function getComponent(data = { component: { html, selector }, css, import
         }
 
         // Delay
-        setTimeout(function () { }, 50);
+        setTimeout(function () { }, 30);
 
         $.get(`${data.js}`, function (js) {
             if (data.js !== "") {
