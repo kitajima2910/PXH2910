@@ -83,7 +83,7 @@ export function getComponent(data = { component: { html, selector }, css, import
         if (data.imports !== undefined) {
             for (let element of data.imports) {
                 $.get(`${data.imports}`, function (js) {
-                    $("head").append(`<script defer src="${element}"></script>`);
+                    $("head").append(`<script src="${element}"></script>`);
                 });
             }
         }
@@ -93,7 +93,7 @@ export function getComponent(data = { component: { html, selector }, css, import
 
         $.get(`${data.js}`, function (js) {
             if (data.js !== "") {
-                $("body").append(`<script defer src="${data.js}"></script>`);
+                $("body").append(`<script src="${data.js}"></script>`);
             }
         });
     }, delay);
