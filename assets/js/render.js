@@ -19,9 +19,9 @@ $(document).ready(function () {
             html: "components/menu/menu.component.html",
             selector: ".component-menu"
         },
-        imports: [
-            "components/menu/js/jquery.ss.menu.js"
-        ],
+        // imports: [
+        //     "components/menu/js/jquery.ss.menu.js"
+        // ],
         js: "components/menu/js/main.js"
     });
 
@@ -36,9 +36,9 @@ $(document).ready(function () {
                 html: "components/games/htmlcssjs/htmlcssjs.component.html",
                 selector: ".component-content"
             },
-            imports: [
-                "components/games/htmlcssjs/js/data.js"
-            ],
+            // imports: [
+            //     "components/games/htmlcssjs/js/data.js"
+            // ],
             js: "components/games/htmlcssjs/js/main.js"
         });
 

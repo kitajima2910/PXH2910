@@ -1,14 +1,10 @@
 window.menu = 0;
 
 $(document).ready(() => {
-    while (window.menu < 2) {
+    while (window.menu < 1) {
 
-        try {
-            $(".ss-menu").delay(10).ssMenu();
-        } catch (error) {
-            
-        }
-        
+        $(".ss-menu").ssMenu();
+
         window.menu++;
     };
 });
