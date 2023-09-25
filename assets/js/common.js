@@ -74,7 +74,7 @@ export function getComponent(data = { component: { html, selector }, css, import
     if (data.imports !== undefined) {
         for (let element of data.imports) {
             $.get(`${data.imports}`, function (js) {
-                $("head").delay(10).append(`<script defer src="${element}"></script>`);
+                $("head").append(`<script defer src="${element}"></script>`);
             });
         }
     }
