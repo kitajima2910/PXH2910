@@ -4,7 +4,7 @@ window.render = 0;
 
 $(document).ready(function () {
 
-    while (window.render < 2) {
+    while (window.render < 3) {
 
         // ############################ Load HTML - JS - CSS ############################
 
@@ -63,7 +63,7 @@ $(document).ready(function () {
         // Load default
         setTimeout(function () {
             routeHTMLCSSJSComponent();
-        }, 800);
+        }, 500);
 
         // ############################ Load HTML - JS - CSS ############################
 
