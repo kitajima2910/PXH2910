@@ -81,13 +81,13 @@ export function getComponent(data = { component: { html, selector }, css, import
 
     // Add file html to tag selector
     $.get(`${data.component.html}`, function (html) {
-        $(`${data.component.selector}`).delay(delay).html(html);
+        $(`${data.component.selector}`).html(html);
     });
 
     // Add file js to tag body
     $.get(`${data.js}`, function (js) {
         if (data.js !== "") {
-            $("body").delay(delay - 10).append(`<script defer src="${data.js}"></script>`);
+            $("body").delay(delay).append(`<script defer src="${data.js}"></script>`);
         }
     });
 };
