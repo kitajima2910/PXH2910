@@ -6,6 +6,14 @@ $(document).ready(function () {
 
     while (window.render < 1) {
 
+        common.loadJSHeader([
+            // menu.component.html
+            "components/menu/js/jquery.ss.menu.js",
+            
+            // htmlcssjs.component.html
+            "components/games/htmlcssjs/js/data.js"
+        ]);
+
         // Get about.component.html
         common.getComponent({
             css: "components/about/css/main.css",
@@ -59,7 +67,7 @@ $(document).ready(function () {
             selectorParent: ".ss-menu",
             initRoutes: initRoutes,
             pageDefault: { func: true, process: routeHTMLCSSJSComponent }
-        }, 700);
+        }, 500);
 
         window.render++;
     }

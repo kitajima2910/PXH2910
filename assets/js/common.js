@@ -91,3 +91,17 @@ export function getComponent(data = { component: { html, selector }, css, import
         }
     });
 };
+
+/**
+ * 
+ * Load JS header
+ * 
+ * @param {Array} data 
+ */
+export function loadJSHeader(data = []) {
+    for(let element of data) {
+        $.get(`${element}`, function (js) {
+            $("head").append(`<script defer src="${element}"></script>`);
+        });
+    }
+}
