@@ -3,7 +3,15 @@ window.menu = 0;
 $(document).ready(function () {
     while (window.menu < 1) {
 
-        $(".ss-menu").ssMenu();
+        function processRender() {
+            $(".ss-menu").ssMenu();
+        }
+
+        try {
+            processRender();
+        } catch (error) {
+            processRender();
+        }
 
         window.menu++;
     };

@@ -2,8 +2,16 @@ window.about = 0;
 
 $(document).ready(function () {
     while (window.about < 1) {
-        
-        // console.log("about");
+
+        function processRender() {
+            // console.log("about");
+        }
+
+        try {
+            processRender();
+        } catch (error) {
+            processRender();
+        }
 
         window.about++;
     };

@@ -1,60 +1,80 @@
 import * as common from "./common.js";
 
+window.render = 0;
+
 $(document).ready(function () {
 
-    // Get about.component.html
-    common.getComponent({
-        css: "components/about/css/main.css",
-        component: {
-            html: "components/about/about.component.html",
-            selector: ".component-about"
-        },
-        js: "components/about/js/main.js"
-    });
+    while (window.render < 1) {
 
-    // Get menu.component.html
-    common.getComponent({
-        css: "components/menu/css/main.css",
-        component: {
-            html: "components/menu/menu.component.html",
-            selector: ".component-menu"
-        },
-        imports: [
-            "components/menu/js/jquery.ss.menu.js"
-        ],
-        js: "components/menu/js/main.js"
-    });
+        function processRender() {
+
+            // Get about.component.html
+            common.getComponent({
+                css: "components/about/css/main.css",
+                component: {
+                    html: "components/about/about.component.html",
+                    selector: ".component-about"
+                },
+                js: "components/about/js/main.js"
+            });
+
+            // Get menu.component.html
+            common.getComponent({
+                css: "components/menu/css/main.css",
+                component: {
+                    html: "components/menu/menu.component.html",
+                    selector: ".component-menu"
+                },
+                imports: [
+                    "components/menu/js/jquery.ss.menu.js"
+                ],
+                js: "components/menu/js/main.js"
+            });
 
 
-    // Use for routes
-    function routeHTMLCSSJSComponent() {
+            // Use for routes
+            function routeHTMLCSSJSComponent() {
 
-        // Get htmlcssjs.component.html
-        common.getComponent({
-            css: "components/games/htmlcssjs/css/main.css",
-            component: {
-                html: "components/games/htmlcssjs/htmlcssjs.component.html",
-                selector: ".component-content"
-            },
-            imports: [
-                "components/games/htmlcssjs/js/data.js"
-            ],
-            js: "components/games/htmlcssjs/js/main.js"
-        });
+                // Get htmlcssjs.component.html
+                common.getComponent({
+                    css: "components/games/htmlcssjs/css/main.css",
+                    component: {
+                        html: "components/games/htmlcssjs/htmlcssjs.component.html",
+                        selector: ".component-content"
+                    },
+                    imports: [
+                        "components/games/htmlcssjs/js/data.js"
+                    ],
+                    js: "components/games/htmlcssjs/js/main.js"
+                });
 
-    };
+            };
 
-    // Setup routes
-    const initRoutes = {
-        "Service": { func: false, process: "pages/service.page.html" },
-        "HTML5-CSS-JS": { func: true, process: routeHTMLCSSJSComponent },
-        "Contact": { func: false, process: "pages/contact.page.html" },
-    };
+            // Setup routes
+            const initRoutes = {
+                "Service": { func: false, process: "pages/service.page.html" },
+                "HTML5-CSS-JS": { func: true, process: routeHTMLCSSJSComponent },
+                "Contact": { func: false, process: "pages/contact.page.html" },
+            };
 
-    common.setRoute({
-        selectorParent: ".ss-menu",
-        initRoutes: initRoutes,
-        pageDefault: { func: true, process: routeHTMLCSSJSComponent }
-    }, 1000);
+            common.setRoute({
+                selectorParent: ".ss-menu",
+                initRoutes: initRoutes,
+                pageDefault: { func: true, process: routeHTMLCSSJSComponent }
+            }, 1000);
+
+        }
+
+        try {
+            processRender();
+        } catch (error) {
+            processRender();
+        }
+
+
+        window.render++;
+    }
+
+
 
 });
