@@ -75,7 +75,7 @@ export function getComponent(data = { component: { html, selector }, css, import
         $.get(`${data.component.html}`, function (html) {
             $(`${data.component.selector}`).html(html);
         });
-    }, delay - 70);
+    }, 10);
 
     setTimeout(function () {
         // Add file js to tag body
@@ -89,7 +89,7 @@ export function getComponent(data = { component: { html, selector }, css, import
         }
 
         // Delay
-        setTimeout(function () { }, 30);
+        setTimeout(function () { }, 50);
 
         $.get(`${data.js}`, function (js) {
             if (data.js !== "") {
