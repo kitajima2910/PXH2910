@@ -42,7 +42,8 @@ a {
     position: relative;
     margin: 0 auto;
     max-width: 1280px;
-    padding-left: 50px;
+    padding-left: 60px;
+    padding-right: 10px;
 }
 
 .container .virtual-numbers {

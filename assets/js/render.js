@@ -60,6 +60,11 @@ $(document).ready(function () {
 
         };
 
+        // Load default
+        setTimeout(function () {
+            routeHTMLCSSJSComponent();
+        }, 800);
+
         // ############################ Load HTML - JS - CSS ############################
 
         // ############################ Routes ############################
@@ -74,8 +79,8 @@ $(document).ready(function () {
         common.setRoute({
             selectorParent: ".ss-menu",
             initRoutes: initRoutes,
-            pageDefault: { func: true, process: routeHTMLCSSJSComponent }
-        }, 800);
+            // pageDefault: { func: true, process: routeHTMLCSSJSComponent }
+        });
 
         // ############################ Routes ############################
 
