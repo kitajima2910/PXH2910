@@ -42,13 +42,16 @@ export function setRoute(data = { selectorParent, initRoutes, pageDefault: { fun
 
             sessionStorage.setItem("route", dataHref);
 
-            if (dataObj.func) {
-                dataObj.process();
-            } else {
-                $.get(dataObj.process, (html) => {
-                    $(".component-content").html(html);
-                });
-            }
+            setTimeout(function() {
+                if (dataObj.func) {
+                    dataObj.process();
+                } else {
+                    $.get(dataObj.process, (html) => {
+                        $(".component-content").html(html);
+                    });
+                }
+            }, delay - 50);
+            
         });
 
     }, delay);
