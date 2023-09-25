@@ -89,11 +89,11 @@ export function getComponent(data = { component: { html, selector }, css, import
         }
 
         // Delay
-        setTimeout(function () { }, 50);
+        // setTimeout(function () { }, 50);
 
         $.get(`${data.js}`, function (js) {
             if (data.js !== "") {
-                $("body").append(`<script src="${data.js}"></script>`);
+                $("body").delay(50).append(`<script src="${data.js}"></script>`);
             }
         });
     }, delay);
