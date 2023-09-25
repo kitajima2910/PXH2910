@@ -11,6 +11,7 @@ $(document).ready(function () {
             processRender();
         } catch (error) {
             processRender();
+            window.about = 0;
         }
 
         window.about++;

@@ -61,7 +61,7 @@ $(document).ready(function () {
                 selectorParent: ".ss-menu",
                 initRoutes: initRoutes,
                 pageDefault: { func: true, process: routeHTMLCSSJSComponent }
-            }, 700);
+            }, 500);
 
         }
 
@@ -69,6 +69,7 @@ $(document).ready(function () {
             processRender();
         } catch (error) {
             processRender();
+            window.render = 0;
         }
 
 
