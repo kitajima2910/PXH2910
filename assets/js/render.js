@@ -40,7 +40,7 @@ $(document).ready(function () {
                 "components/games/htmlcssjs/js/data.js"
             ],
             js: "components/games/htmlcssjs/js/main.js"
-        });
+        }, 500);
 
     };
 
