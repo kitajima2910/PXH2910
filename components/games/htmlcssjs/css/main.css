@@ -55,7 +55,7 @@
 .component-htmlcssjs .row .card .sub-title {
     font-size: 1.2em;
     font-weight: 300;
-    /* text-indent: 2em; */
+    text-indent: 2em;
     border-bottom: 0.1px solid rgb(226, 226, 226, 0.5);
     margin: 1.5em;
     font-weight: 400;
@@ -72,7 +72,7 @@
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    text-indent: 2em;
+    /* text-indent: 2em; */
     text-transform: uppercase;
 }
 
