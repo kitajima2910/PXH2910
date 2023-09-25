@@ -23,11 +23,11 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 
-    margin-left: -webkit-calc(100% / 30);
+    margin-left: -webkit-calc(100% / 15);
 
-    margin-left: -moz-calc(100% / 30);
+    margin-left: -moz-calc(100% / 15);
 
-    margin-left: calc(100% / 30);
+    margin-left: calc(100% / 15);
 }
 
 .component-htmlcssjs .row>* {
