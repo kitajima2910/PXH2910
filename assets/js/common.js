@@ -64,11 +64,13 @@ export function setRoute(data = { selectorParent, initRoutes, pageDefault: { fun
 export function getComponent(data = { component: { html, selector }, css, imports, js }, delay = 100) {
 
     // Add file css to tag head
-    $.get(`${data.css}`, function (css) {
-        if (data.js !== "") {
-            $("head").append(`<link rel="stylesheet" href="${data.css}">`);
-        }
-    });
+    if (data.css != undefined) {
+        $.get(`${data.css}`, function (css) {
+            if (data.js !== "") {
+                $("head").append(`<link rel="stylesheet" href="${data.css}">`);
+            }
+        });
+    }
 
     // Add file sub-js to tag head
     if (data.imports !== undefined) {
@@ -99,9 +101,37 @@ export function getComponent(data = { component: { html, selector }, css, import
  * @param {Array} data 
  */
 export function loadJSHeader(data = []) {
-    for(let element of data) {
+    for (let element of data) {
         $.get(`${element}`, function (js) {
             $("head").append(`<script defer src="${element}"></script>`);
+        });
+    }
+}
+
+/**
+ * 
+ * Load CSS header
+ * 
+ * @param {Array} data 
+ */
+export function loadCSSHeader(data = []) {
+    for (let element of data) {
+        $.get(`${element}`, function (css) {
+            $("head").append(`<link rel="stylesheet" href="${element}">`);
+        });
+    }
+}
+
+/**
+ * 
+ * Load HTML header
+ * 
+ * @param {Array} data 
+ */
+export function loadHTMLBody(data = []) {
+    for (let element of data) {
+        $.get(`${element[0]}`, function (html) {
+            $(`${element[1]}`).html(html);
         });
     }
 }

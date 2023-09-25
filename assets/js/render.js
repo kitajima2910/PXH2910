@@ -14,9 +14,19 @@ $(document).ready(function () {
             "components/games/htmlcssjs/js/data.js"
         ]);
 
+        common.loadCSSHeader([
+            // about.component.html
+            "components/about/css/main.css",
+
+            // menu.component.html
+            "components/menu/css/main.css",
+
+            // htmlcssjs.component.html
+            "components/games/htmlcssjs/css/main.css"
+        ]);
+
         // Get about.component.html
         common.getComponent({
-            css: "components/about/css/main.css",
             component: {
                 html: "components/about/about.component.html",
                 selector: ".component-about"
@@ -26,14 +36,10 @@ $(document).ready(function () {
 
         // Get menu.component.html
         common.getComponent({
-            css: "components/menu/css/main.css",
             component: {
                 html: "components/menu/menu.component.html",
                 selector: ".component-menu"
             },
-            // imports: [
-            //     "components/menu/js/jquery.ss.menu.js"
-            // ],
             js: "components/menu/js/main.js"
         });
 
@@ -43,14 +49,10 @@ $(document).ready(function () {
 
             // Get htmlcssjs.component.html
             common.getComponent({
-                css: "components/games/htmlcssjs/css/main.css",
                 component: {
                     html: "components/games/htmlcssjs/htmlcssjs.component.html",
                     selector: ".component-content"
                 },
-                // imports: [
-                //     "components/games/htmlcssjs/js/data.js"
-                // ],
                 js: "components/games/htmlcssjs/js/main.js"
             });
 
