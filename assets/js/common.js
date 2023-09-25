@@ -70,7 +70,7 @@ export function getComponent(data = { component: { html, selector }, css, import
         }
     });
 
-    // Add file js to tag body
+    // Add file sub-js to tag head
     if (data.imports !== undefined) {
         for (let element of data.imports) {
             $.get(`${data.imports}`, function (js) {
@@ -84,9 +84,10 @@ export function getComponent(data = { component: { html, selector }, css, import
         $(`${data.component.selector}`).delay(delay).html(html);
     });
 
+    // Add file js to tag body
     $.get(`${data.js}`, function (js) {
         if (data.js !== "") {
-            $("body").delay(delay).append(`<script defer src="${data.js}"></script>`);
+            $("body").delay(delay - 10).append(`<script defer src="${data.js}"></script>`);
         }
     });
 };
