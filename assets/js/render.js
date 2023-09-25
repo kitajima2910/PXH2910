@@ -74,7 +74,7 @@ $(document).ready(function () {
         // Delay render
         common.delayRender([
             ".component-menu"
-        ], 750);
+        ], 1000);
 
         window.render++;
     }
