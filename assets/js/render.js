@@ -91,7 +91,7 @@ $(document).ready(function () {
         // Display block
         common.delayRender([
             ".component-menu"
-        ], 550);
+        ], 1000);
 
         window.render++;
         console.log("Render: ", window.render);
