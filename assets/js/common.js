@@ -70,29 +70,23 @@ export function getComponent(data = { component: { html, selector }, css, import
         }
     });
 
-    setTimeout(function () {
-        // Add file js to tag body
-        if (data.imports !== undefined) {
-            for (let element of data.imports) {
-                $.get(`${data.imports}`, function (js) {
-                    $("head").append(`<script defer src="${element}"></script>`);
-                });
-            }
+    // Add file js to tag body
+    if (data.imports !== undefined) {
+        for (let element of data.imports) {
+            $.get(`${data.imports}`, function (js) {
+                $("head").delay(10).append(`<script defer src="${element}"></script>`);
+            });
         }
-    }, 5);
+    }
 
-    setTimeout(function () {
-        // Add file html to tag selector
-        $.get(`${data.component.html}`, function (html) {
-            $(`${data.component.selector}`).html(html);
-        });
-    }, 10);
+    // Add file html to tag selector
+    $.get(`${data.component.html}`, function (html) {
+        $(`${data.component.selector}`).delay(delay).html(html);
+    });
 
-    setTimeout(function () {
-        $.get(`${data.js}`, function (js) {
-            if (data.js !== "") {
-                $("body").delay(50).append(`<script defer src="${data.js}"></script>`);
-            }
-        });
-    }, delay);
+    $.get(`${data.js}`, function (js) {
+        if (data.js !== "") {
+            $("body").delay(delay).append(`<script defer src="${data.js}"></script>`);
+        }
+    });
 };
