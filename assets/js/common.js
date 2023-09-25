@@ -41,7 +41,7 @@ export function setRoute(data = { selectorParent, initRoutes, pageDefault: { fun
             const dataObj = data.initRoutes[dataHref];
 
             sessionStorage.setItem("route", dataHref);
-            
+
             if (dataObj.func) {
                 dataObj.process();
             } else {
@@ -71,15 +71,7 @@ export function getComponent(data = { component: { html, selector }, css, import
     });
 
     setTimeout(function () {
-        // Add file html to tag selector
-        $.get(`${data.component.html}`, function (html) {
-            $(`${data.component.selector}`).html(html);
-        });
-    }, 10);
-
-    setTimeout(function () {
         // Add file js to tag body
-
         if (data.imports !== undefined) {
             for (let element of data.imports) {
                 $.get(`${data.imports}`, function (js) {
@@ -87,10 +79,16 @@ export function getComponent(data = { component: { html, selector }, css, import
                 });
             }
         }
+    }, 5);
 
-        // Delay
-        // setTimeout(function () { }, 50);
+    setTimeout(function () {
+        // Add file html to tag selector
+        $.get(`${data.component.html}`, function (html) {
+            $(`${data.component.selector}`).html(html);
+        });
+    }, 10);
 
+    setTimeout(function () {
         $.get(`${data.js}`, function (js) {
             if (data.js !== "") {
                 $("body").delay(50).append(`<script defer src="${data.js}"></script>`);
