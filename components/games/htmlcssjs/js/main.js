@@ -94,5 +94,6 @@ $(document).ready(() => {
         }
 
         window.htmlcssjs++;
+        console.clear();
     };
 });

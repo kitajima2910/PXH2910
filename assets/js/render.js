@@ -73,6 +73,7 @@ $(document).ready(function () {
 
 
         window.render++;
+        console.clear();
     }
 
 
