@@ -103,7 +103,7 @@ export function getComponent(data = { component: { html, selector }, css, import
 export function loadJSHeader(data = []) {
     for (let element of data) {
         $.get(`${element}`, function (js) {
-            $("head").append(`<script defer src="${element}"></script>`);
+            $("head").append(`<script src="${element}"></script>`);
         });
     }
 }
