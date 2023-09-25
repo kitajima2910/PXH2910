@@ -5,7 +5,7 @@
  * @param {Object} data 
  * @param {Number} delay 
  */
-export function setRoute(data = { selectorParent, initRoutes, pageDefault: { func: false, process } }, delay = 300) {
+export function setRoute(data = { selectorParent, initRoutes, pageDefault: { func: false, process } }, delay = 500) {
 
     setTimeout(function () {
 
@@ -61,7 +61,7 @@ export function setRoute(data = { selectorParent, initRoutes, pageDefault: { fun
  * @param {Object} data 
  * @param {Number} delay 
  */
-export function getComponent(data = { component: { html, selector }, css, imports, js }, delay = 100) {
+export function getComponent(data = { component: { html, selector }, css, imports, js }, delay = 500) {
 
     // Add file css to tag head
     if (data.css != undefined) {
@@ -142,7 +142,7 @@ export function loadHTMLBody(data = []) {
  * 
  * @param {Array} data 
  */
-export function delayRender(data = [], delay = 300) {
+export function delayRender(data = [], delay = 500) {
     setTimeout(function () {
         for (let element of data) {
             $(element).css("display", "block");
