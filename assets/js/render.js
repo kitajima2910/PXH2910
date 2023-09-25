@@ -6,10 +6,6 @@ $(document).ready(function () {
 
     while (window.render < 1) {
 
-        common.delayRender([
-            [".component-menu", false]
-        ]);
-
         common.loadJSHeader([
             // menu.component.html
             "components/menu/js/jquery.ss.menu.js",
