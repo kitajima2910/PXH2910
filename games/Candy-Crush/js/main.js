@@ -12,7 +12,6 @@ var otherTile;
 window.onload = function() {
     startGame();
 
-    //1/10th of a second
     window.setInterval(function(){
         crushCandy();
         slideCandy();
@@ -33,13 +32,13 @@ function startGame() {
             tile.id = r.toString() + "-" + c.toString();
             tile.src = "img/" + randomCandy() + ".png";
 
-            //DRAG FUNCTIONALITY
-            tile.addEventListener("dragstart", dragStart); //click on a candy, initialize drag process
-            tile.addEventListener("dragover", dragOver);  //clicking on candy, moving mouse to drag the candy
-            tile.addEventListener("dragenter", dragEnter); //dragging candy onto another candy
-            tile.addEventListener("dragleave", dragLeave); //leave candy over another candy
-            tile.addEventListener("drop", dragDrop); //dropping a candy over another candy
-            tile.addEventListener("dragend", dragEnd); //after drag process completed, we swap candies
+            // Chức năng kéo thả
+            tile.addEventListener("dragstart", dragStart); // Bấm vào một viên kẹo, khởi tạo quá trình kéo
+            tile.addEventListener("dragover", dragOver);  // Bấm vào kẹo, di chuyển chuột để kéo kẹo
+            tile.addEventListener("dragenter", dragEnter); // Kéo kẹo lên kẹo khác
+            tile.addEventListener("dragleave", dragLeave); // Để kẹo chồng lên viên kẹo khác
+            tile.addEventListener("drop", dragDrop); // Thả một viên kẹo lên một viên kẹo khác
+            tile.addEventListener("dragend", dragEnd); // Sau khi quá trình kéo hoàn tất, chúng ta trao đổi kẹo
 
             document.getElementById("board").append(tile);
             row.push(tile);
@@ -51,7 +50,7 @@ function startGame() {
 }
 
 function dragStart() {
-    //this refers to tile that was clicked on for dragging
+    // Candy được nhấp vào để kéo
     currTile = this;
 }
 
@@ -68,7 +67,7 @@ function dragLeave() {
 }
 
 function dragDrop() {
-    //this refers to the target tile that was dropped on
+    // Candy mục tiêu đã được thả vào
     otherTile = this;
 }
 
@@ -111,15 +110,15 @@ function dragEnd() {
 }
 
 function crushCandy() {
-    //crushFive();
-    //crushFour();
+    // crushFive();
+    // crushFour();
     crushThree();
     document.getElementById("score").innerText = score;
 
 }
 
 function crushThree() {
-    //check rows
+    // Kiểm tra dòng
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < columns-2; c++) {
             let candy1 = board[r][c];
@@ -134,7 +133,7 @@ function crushThree() {
         }
     }
 
-    //check columns
+    // Kiểm tra cột
     for (let c = 0; c < columns; c++) {
         for (let r = 0; r < rows-2; r++) {
             let candy1 = board[r][c];
@@ -151,7 +150,7 @@ function crushThree() {
 }
 
 function checkValid() {
-    //check rows
+    // Kiểm tra dòng
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < columns-2; c++) {
             let candy1 = board[r][c];
@@ -163,7 +162,7 @@ function checkValid() {
         }
     }
 
-    //check columns
+    // Kiểm tra cột
     for (let c = 0; c < columns; c++) {
         for (let r = 0; r < rows-2; r++) {
             let candy1 = board[r][c];
