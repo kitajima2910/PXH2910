@@ -1,5 +1,12 @@
 var DATA_HTML_CSS_JS = [
     {
+        tooltip: "Arrow(Up, Down, Left, Right) để di chuyển",
+        img: "assets/img/games/Snake.PNG",
+        subTitle: "Rắn Săn Mồi",
+        githubRepo: "https://github.com/kitajima2910/PXH2910/tree/master/games/Snake",
+        live: "games/Snake/index.html"
+    },
+    {
         tooltip: "Sử dụng chuột để kéo thả Candy",
         img: "assets/img/games/Candy-Crush.PNG",
         subTitle: "Candy Crush",
