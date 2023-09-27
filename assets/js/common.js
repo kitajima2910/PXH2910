@@ -36,6 +36,10 @@ export function setRoute(data = { selectorParent, initRoutes, pageDefault: { fun
 
         $(data.selectorParent).on("click", "a", function (e) {
             e.preventDefault();
+            
+            if($(this).attr("active") === "true") {
+                return;
+            }
 
             const dataHref = $(this).attr("data-href");
             const dataObj = data.initRoutes[dataHref];
@@ -49,7 +53,15 @@ export function setRoute(data = { selectorParent, initRoutes, pageDefault: { fun
                     $(".component-content").html(html);
                 });
             }
+
+            for(let i = 0; i < $(`${data.selectorParent} li a`).length; i++) {
+                let tagA = $(`${data.selectorParent} li a`)[i];
+                $(tagA).attr("active", "false")
+            }
+
+            $(this).attr("active", "true");
         });
+
 
     }, delay);
 }
