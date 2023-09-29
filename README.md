@@ -1,1 +1,1 @@
-# PXH2910 Tập Code (Angular)
+# PXH2910 Tập Code (Pure)

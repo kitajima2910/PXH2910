@@ -1,0 +1,82 @@
+.component-htmlcssjs {
+    margin-top: 3em;
+}
+
+.component-htmlcssjs .title {
+    font-size: 1.4em;
+    text-align: left;
+}
+
+.component-htmlcssjs .row {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+    margin-left: -webkit-calc(100% / 15);
+
+    margin-left: -moz-calc(100% / 15);
+
+    margin-left: calc(100% / 15);
+}
+
+.component-htmlcssjs .row>* {
+    width: -webkit-calc(100% / 3);
+    width: -moz-calc(100% / 3);
+    width: calc(100% / 3);
+}
+
+.component-htmlcssjs .row .card {
+    position: relative;
+    /* cursor: pointer; */
+    width: 300px;
+    padding: 1em;
+    margin: 1.5em;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.component-htmlcssjs .row .card .img {
+    width: 100%;
+    height: 300px;
+}
+
+.component-htmlcssjs .row .card .sub-title {
+    font-size: 1.2em;
+    font-weight: 300;
+    text-indent: 2em;
+    border-bottom: 0.1px solid rgb(226, 226, 226, 0.5);
+    margin: 1.5em;
+    font-weight: 400;
+}
+
+.component-htmlcssjs .row .card .bottom {
+    font-size: 1.2em;
+    font-weight: 300;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    /* text-indent: 2em; */
+    text-transform: uppercase;
+}
+
+.component-htmlcssjs .row .card .bottom a {
+    color: rgb(87, 87, 87);
+    text-decoration: overline;
+}
