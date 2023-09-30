@@ -6,7 +6,7 @@
 
 .app-name {
     font-size: 28px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
 }
 
@@ -16,25 +16,26 @@
     -webkit-text-fill-color: transparent;
 }
 
-.board {
 
+.board {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
 
-    // Override Automatic Mininum Size
+    // Override Automatic Minimum Size
+    // https://stackoverflow.com/questions/36247140/why-dont-flex-items-shrink-past-content-size
     min-width: 0;
     min-height: 0;
 
     .board-bar {
-        background: rgba(gray, .5);
+        background: rgba(gray, 0.5);
         padding: 8px 15px;
-    }
-
-    .board-name {
-        font-size: 20px;
-        font-weight: bold;
-        color: white;
+    
+        .board-name {
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+        }
     }
 
     .board-wrapper {
@@ -56,9 +57,61 @@
                 margin: 50px;
                 padding: 25px;
 
-                background: rgba(white, .5);
+                border-radius: 4px;
+
+                background: rgba(white, 0.5);
+
+                &:not(:first-child) {
+                    margin-left: 0;
+                }
+
+                .column-title {
+                    font-size: 20px;
+                    font-weight: 800;
+                    font-family: 'Lato', sans-serif;
+                    text-transform: uppercase;
+                    margin-bottom: 20px;
+                }
             }
         }
     }
+}
 
+
+.tasks-container {
+    flex-grow: 1;
+    overflow-y: auto; 
+}
+
+.task {
+    display: flex;
+    padding: 15px 12px;
+    background: white;
+    border-bottom: solid 1px #ddd;
+    border-radius: 4px;
+
+    margin-bottom: 15px;
+
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.05),
+    0 3px 14px 2px rgba(0, 0, 0, 0.05);
+}
+
+.cdk-drag-preview {
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+                0 8px 10px 1px rgba(0, 0, 0, 0.14),
+                0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.cdk-drag-placeholder {
+    opacity: 0;
+}
+
+.cdk-drag-animating {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.tasks-container.cdk-drop-list-dragging .task:not(.cdk-drag-placeholder) {
+    transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
 }
