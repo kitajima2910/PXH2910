@@ -1,5 +1,12 @@
 var DATA_HTML_CSS_JS = [
     {
+        tooltip: "Sử dụng phím mũi tên trái - phải",
+        img: "assets/img/games/Breaking-Bricks.PNG",
+        subTitle: "Phá Gạch",
+        githubRepo: "https://github.com/kitajima2910/PXH2910/tree/master/games/Breaking-Bricks",
+        live: "games/Breaking-Bricks/index.html"
+    },
+    {
         tooltip: "Sử dụng chuột để kéo thả vào hộp cùng màu",
         img: "assets/img/games/Drag-And-Drop.PNG",
         subTitle: "Kéo Thả Vào Hộp",
