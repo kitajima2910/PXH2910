@@ -1,5 +1,12 @@
 var DATA_HTML_CSS_JS = [
     {
+        tooltip: "Sử dụng chuột trái để bắn",
+        img: "assets/img/games/Duck-Hunt.PNG",
+        subTitle: "Bắn Vịt",
+        githubRepo: "https://github.com/kitajima2910/PXH2910/tree/master/games/Duck-Hunt",
+        live: "games/Duck-Hunt/index.html"
+    },
+    {
         tooltip: "Sử dụng phím mũi tên trái - phải",
         img: "assets/img/games/Breaking-Bricks.PNG",
         subTitle: "Phá Gạch",
