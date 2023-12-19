@@ -1,0 +1,853 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"interval": 100,
+					"length": 1000,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.38,
+										"abs_pivot_y": 0.94,
+										"abs_scale_x": -1,
+										"abs_scale_y": 1,
+										"abs_x": 2.5678099999999997,
+										"abs_y": -23.148781,
+										"file": 3,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "left-foot_000",
+										"timeline": "9",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.38,
+										"abs_pivot_y": 0.94,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 15.448696,
+										"abs_y": -28.273434,
+										"file": 3,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "left-foot",
+										"timeline": "8",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.069307,
+										"abs_pivot_y": 0.14244999999999997,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 9,
+										"abs_y": -40.861261,
+										"file": 8,
+										"folder": 0,
+										"id": 2,
+										"key": 0,
+										"name": "tail",
+										"timeline": "7",
+										"z_index": "2"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 8.398964,
+										"abs_y": -31.984456,
+										"file": 2,
+										"folder": 0,
+										"id": 3,
+										"key": 0,
+										"name": "bottom",
+										"timeline": "0",
+										"z_index": "3"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 7.38342,
+										"abs_y": -54.725389,
+										"file": 1,
+										"folder": 0,
+										"id": 4,
+										"key": 0,
+										"name": "body",
+										"timeline": "1",
+										"z_index": "4"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 9,
+										"abs_y": -65.082902,
+										"file": 0,
+										"folder": 0,
+										"id": 5,
+										"key": 0,
+										"name": "head",
+										"timeline": "2",
+										"z_index": "5"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.162455,
+										"abs_pivot_y": 0.912121,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 15.969370999999999,
+										"abs_y": -62.969084,
+										"file": 4,
+										"folder": 0,
+										"id": 6,
+										"key": 0,
+										"name": "left-sleeve",
+										"timeline": "3",
+										"z_index": "6"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.782051,
+										"abs_pivot_y": 0.878594,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -2.0558870000000002,
+										"abs_y": -62.776454,
+										"file": 7,
+										"folder": 0,
+										"id": 7,
+										"key": 0,
+										"name": "right-sleeve",
+										"timeline": "4",
+										"z_index": "7"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.858871,
+										"abs_pivot_y": 0.925676,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 25.219514,
+										"abs_y": -50.073633,
+										"file": 9,
+										"folder": 0,
+										"id": 8,
+										"key": 0,
+										"name": "left-arm",
+										"timeline": "5",
+										"z_index": "8"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 99.09386,
+										"abs_pivot_x": 0.926045,
+										"abs_pivot_y": 0.06506800000000001,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -8.600651,
+										"abs_y": -51.368327,
+										"file": 5,
+										"folder": 0,
+										"id": 9,
+										"key": 0,
+										"name": "right-arm",
+										"timeline": "6",
+										"z_index": "9"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "9",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"timeline": "8",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 0,
+										"timeline": "7",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"timeline": "0",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 0,
+										"timeline": "2",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 0,
+										"timeline": "3",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 1,
+										"timeline": "4",
+										"z_index": "7"
+									},
+									{
+										"id": 8,
+										"key": 0,
+										"timeline": "5",
+										"z_index": "8"
+									},
+									{
+										"id": 9,
+										"key": 1,
+										"timeline": "6",
+										"z_index": "9"
+									}
+								],
+								"time": 300
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "9",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"timeline": "8",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"timeline": "7",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"timeline": "0",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 1,
+										"timeline": "2",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 0,
+										"timeline": "3",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 1,
+										"timeline": "4",
+										"z_index": "7"
+									},
+									{
+										"id": 8,
+										"key": 0,
+										"timeline": "5",
+										"z_index": "8"
+									},
+									{
+										"id": 9,
+										"key": 1,
+										"timeline": "6",
+										"z_index": "9"
+									}
+								],
+								"time": 500
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 0,
+										"timeline": "9",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 0,
+										"timeline": "8",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"timeline": "7",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 0,
+										"timeline": "0",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 0,
+										"timeline": "1",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 1,
+										"timeline": "2",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 1,
+										"timeline": "3",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 1,
+										"timeline": "4",
+										"z_index": "7"
+									},
+									{
+										"id": 8,
+										"key": 1,
+										"timeline": "5",
+										"z_index": "8"
+									},
+									{
+										"id": 9,
+										"key": 1,
+										"timeline": "6",
+										"z_index": "9"
+									}
+								],
+								"time": 600
+							}
+						]
+					},
+					"name": "idle",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"x": 8.398964,
+										"y": 31.984456
+									},
+									"spin": 0
+								}
+							],
+							"name": "bottom",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"x": 7.38342,
+										"y": 54.725389
+									},
+									"spin": 0
+								}
+							],
+							"name": "body",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"curve_type": "instant",
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"x": 9,
+										"y": 65.082902
+									}
+								},
+								{
+									"curve_type": "instant",
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"scale_x": -1,
+										"x": 7,
+										"y": 65.082902
+									},
+									"time": 500
+								}
+							],
+							"name": "head",
+							"obj": 2
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 4,
+										"folder": 0,
+										"x": 15.969370999999999,
+										"y": 62.969084
+									}
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 32.07688200000001,
+										"file": 4,
+										"folder": 0,
+										"x": 13.969370999999999,
+										"y": 62.969084
+									},
+									"spin": -1,
+									"time": 600
+								}
+							],
+							"name": "left-sleeve",
+							"obj": 3
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 7,
+										"folder": 0,
+										"x": -2.0558870000000002,
+										"y": 62.776454
+									},
+									"spin": -1
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 336.859647,
+										"file": 7,
+										"folder": 0,
+										"x": -3.0558870000000002,
+										"y": 62.776454
+									},
+									"time": 300
+								}
+							],
+							"name": "right-sleeve",
+							"obj": 4
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": 25.219514,
+										"y": 50.073633
+									}
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 11.228534000000025,
+										"file": 9,
+										"folder": 0,
+										"x": 29.336536,
+										"y": 55.392782
+									},
+									"spin": -1,
+									"time": 600
+								}
+							],
+							"name": "left-arm",
+							"obj": 5
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 99.09386,
+										"file": 5,
+										"folder": 0,
+										"x": -8.600651,
+										"y": 51.368327
+									},
+									"spin": -1
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 330,
+										"file": 5,
+										"folder": 0,
+										"x": -13.058098000000001,
+										"y": 52.432156
+									},
+									"time": 300
+								}
+							],
+							"name": "right-arm",
+							"obj": 6
+						},
+						{
+							"id": 7,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 8,
+										"folder": 0,
+										"x": 9,
+										"y": 40.861261
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 8,
+										"folder": 0,
+										"scale_x": -1,
+										"y": 40.861261
+									},
+									"spin": 0,
+									"time": 500
+								}
+							],
+							"name": "tail",
+							"obj": 7
+						},
+						{
+							"id": 8,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 3,
+										"folder": 0,
+										"x": 15.448696,
+										"y": 28.273434
+									},
+									"spin": 0
+								}
+							],
+							"name": "left-foot",
+							"obj": 8
+						},
+						{
+							"id": 9,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 3,
+										"folder": 0,
+										"scale_x": -1,
+										"x": 2.5678099999999997,
+										"y": 23.148781
+									},
+									"spin": 0
+								}
+							],
+							"name": "left-foot_000",
+							"obj": 9
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "old-monkey-passenger",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 2,
+							"folder": 0
+						}
+					],
+					"name": "old-monkey-passenger_bottom",
+					"realname": "bottom",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 0
+						}
+					],
+					"name": "old-monkey-passenger_body",
+					"realname": "body",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 0
+						}
+					],
+					"name": "old-monkey-passenger_head",
+					"realname": "head",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 4,
+							"folder": 0
+						}
+					],
+					"name": "old-monkey-passenger_left-sleeve",
+					"realname": "left-sleeve",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 7,
+							"folder": 0
+						}
+					],
+					"name": "old-monkey-passenger_right-sleeve",
+					"realname": "right-sleeve",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 9,
+							"folder": 0
+						}
+					],
+					"name": "old-monkey-passenger_left-arm",
+					"realname": "left-arm",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 5,
+							"folder": 0
+						}
+					],
+					"name": "old-monkey-passenger_right-arm",
+					"realname": "right-arm",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 8,
+							"folder": 0
+						}
+					],
+					"name": "old-monkey-passenger_tail",
+					"realname": "tail",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 3,
+							"folder": 0
+						}
+					],
+					"name": "old-monkey-passenger_left-foot",
+					"realname": "left-foot",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 3,
+							"folder": 0
+						}
+					],
+					"name": "old-monkey-passenger_left-foot_000",
+					"realname": "left-foot_000",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 54,
+					"id": 0,
+					"name": "head.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0,
+					"width": 63
+				},
+				{
+					"height": 33,
+					"id": 1,
+					"name": "body.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 26
+				},
+				{
+					"height": 29,
+					"id": 2,
+					"name": "bottom.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 24
+				},
+				{
+					"height": 25,
+					"id": 3,
+					"name": "left-foot.png",
+					"pivot_x": 0.38,
+					"pivot_y": 0.94,
+					"width": 17
+				},
+				{
+					"height": 19,
+					"id": 4,
+					"name": "left-sleeve.png",
+					"pivot_x": 0.162455,
+					"pivot_y": 0.912121,
+					"width": 16
+				},
+				{
+					"height": 30,
+					"id": 5,
+					"name": "right-arm.png",
+					"pivot_x": 0.926045,
+					"pivot_y": 0.06506800000000001,
+					"width": 32
+				},
+				{
+					"height": 25,
+					"id": 6,
+					"name": "right-foot.png",
+					"pivot_x": 0.589431,
+					"pivot_y": 0.938776,
+					"width": 18
+				},
+				{
+					"height": 20,
+					"id": 7,
+					"name": "right-sleeve.png",
+					"pivot_x": 0.782051,
+					"pivot_y": 0.878594,
+					"width": 15
+				},
+				{
+					"height": 25,
+					"id": 8,
+					"name": "tail.png",
+					"pivot_x": 0.069307,
+					"pivot_y": 0.14244999999999997,
+					"width": 36
+				},
+				{
+					"height": 34,
+					"id": 9,
+					"name": "left-arm.png",
+					"pivot_x": 0.858871,
+					"pivot_y": 0.925676,
+					"width": 19
+				}
+			],
+			"id": 0
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r1",
+	"scon_version": "1.0"
+}

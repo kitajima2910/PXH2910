@@ -1,0 +1,60 @@
+<pana>
+	<!-- You must change fake_gamepad to 1 if you want to test on gamepad/ps4 controller-->
+	<fake_gamepad>0</fake_gamepad>
+	<!-- You must launch Check_KeyCode.apk on android device to input these values-->
+	<Gamepad_PS4_Controller>
+		<key_up>19</key_up>
+		<key_down>20</key_down>
+		<key_left>21</key_left>
+		<key_right>22</key_right>
+		<!-- This is button "A" on gamepad or "X" on ps4-->
+		<key_button_a>96</key_button_a>
+		<!-- This is button "B" on gamepad or "O" on ps4-->
+		<key_button_b>97</key_button_b>
+		<!-- This is button "X" on gamepad or "□" on ps4-->
+		<key_button_x>99</key_button_x>
+		<!-- This is button "Y" on gamepad or "∆" on ps4-->
+		<key_button_y>100</key_button_y>
+		<key_button_l1>102</key_button_l1>
+		<key_button_r1>103</key_button_r1>
+		<!-- This is button "SELECT" on gamepad or "SHARE" on ps4-->
+		<key_button_ok>109</key_button_ok>
+	</Gamepad_PS4_Controller>
+	
+	
+	
+	<CandyBar_Controller>
+		<key_up>39</key_up>
+		<key_down>37</key_down>
+		<key_left>38</key_left>
+		<key_right>40</key_right>
+		<!-- This is button ".." on Candy Bar-->
+		<key_button_a>97</key_button_a>
+		<!-- This is button "." on Candy Bar-->
+		<key_button_b>12001</key_button_b>
+		<!-- This is button "::" on Candy Bar-->
+		<key_button_x>12004</key_button_x>
+		<!-- This is button ".:" on Candy Bar-->
+		<key_button_y>12003</key_button_y>
+		<key_button_l1>102</key_button_l1>
+		<key_button_r1>103</key_button_r1>
+		<key_button_ok>13</key_button_ok>
+	</CandyBar_Controller>
+	<VHS_Controller>
+		<key_up>38</key_up>
+		<key_down>40</key_down>
+		<key_left>37</key_left>
+		<key_right>39</key_right>
+		<!-- This is button "B" on VHS-->
+		<key_button_a>97</key_button_a>
+		<!-- This is button "A" on VHS-->
+		<key_button_b>12001</key_button_b>
+		<!-- This is button "Y" on VHS-->
+		<key_button_x>12004</key_button_x>
+		<!-- This is button "X" on VHS-->
+		<key_button_y>12003</key_button_y>
+		<key_button_l1>102</key_button_l1>
+		<key_button_r1>103</key_button_r1>
+		<key_button_ok>13</key_button_ok>
+	</VHS_Controller>
+</pana>

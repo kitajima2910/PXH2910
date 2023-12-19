@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r1">
+    <folder id="0">
+        <file id="0" name="banana-tuktuk.png" width="175" height="136" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="front-wheel.png" width="37" height="34" pivot_x="0.5" pivot_y="0.49"/>
+        <file id="2" name="banana-driver.png" width="60" height="110" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="3" name="banana-boxes.png" width="89" height="85" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="4" name="banaba-tail.png" width="39" height="32" pivot_x="1" pivot_y="0"/>
+        <file id="5" name="back-wheel.png" width="36" height="32" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="6" name="back-cover.png" width="50" height="22" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="7" name="front-cover.png" width="34" height="31" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="8" name="extra-cart.png" width="148" height="88" pivot_x="0.94" pivot_y="0.260504"/>
+        <file id="9" name="banana-box.png" width="45" height="50" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="banana-monkey">
+        <obj_info name="banana-monkey_banana-tuktuk" realname="banana-tuktuk" type="sprite">
+            <frames>
+                <i folder="0" file="0"/>
+            </frames>
+        </obj_info>
+        <obj_info name="banana-monkey_front-wheel" realname="front-wheel" type="sprite">
+            <frames>
+                <i folder="0" file="1"/>
+            </frames>
+        </obj_info>
+        <obj_info name="banana-monkey_back-wheel" realname="back-wheel" type="sprite">
+            <frames>
+                <i folder="0" file="5"/>
+            </frames>
+        </obj_info>
+        <obj_info name="banana-monkey_banana-boxes" realname="banana-boxes" type="sprite">
+            <frames/>
+        </obj_info>
+        <obj_info name="banana-monkey_banana-driver" realname="banana-driver" type="sprite">
+            <frames>
+                <i folder="0" file="2"/>
+            </frames>
+        </obj_info>
+        <obj_info name="banana-monkey_banaba-tail" realname="banaba-tail" type="sprite">
+            <frames>
+                <i folder="0" file="4"/>
+            </frames>
+        </obj_info>
+        <obj_info name="banana-monkey_back-cover" realname="back-cover" type="sprite">
+            <frames>
+                <i folder="0" file="6"/>
+            </frames>
+        </obj_info>
+        <obj_info name="banana-monkey_front-cover" realname="front-cover" type="sprite">
+            <frames>
+                <i folder="0" file="7"/>
+            </frames>
+        </obj_info>
+        <obj_info name="banana-monkey_extra-cart" realname="extra-cart" type="sprite">
+            <frames>
+                <i folder="0" file="8"/>
+            </frames>
+        </obj_info>
+        <obj_info name="banana-monkey_back-cover_000" realname="back-cover_000" type="sprite">
+            <frames>
+                <i folder="0" file="6"/>
+            </frames>
+        </obj_info>
+        <obj_info name="banana-monkey_back-wheel_000" realname="back-wheel_000" type="sprite">
+            <frames>
+                <i folder="0" file="5"/>
+            </frames>
+        </obj_info>
+        <obj_info name="banana-monkey_banana-box" realname="banana-box" type="sprite">
+            <frames>
+                <i folder="0" file="9"/>
+            </frames>
+        </obj_info>
+        <obj_info name="banana-monkey_banana-box_000" realname="banana-box_000" type="sprite">
+            <frames>
+                <i folder="0" file="9"/>
+            </frames>
+        </obj_info>
+        <obj_info name="banana-monkey_banana-box_001" realname="banana-box_001" type="sprite">
+            <frames>
+                <i folder="0" file="9"/>
+            </frames>
+        </obj_info>
+        <obj_info name="banana-monkey_banana-box_002" realname="banana-box_002" type="sprite">
+            <frames>
+                <i folder="0" file="9"/>
+            </frames>
+        </obj_info>
+        <obj_info name="banana-monkey_banana-box_003" realname="banana-box_003" type="sprite">
+            <frames>
+                <i folder="0" file="9"/>
+            </frames>
+        </obj_info>
+        <obj_info name="banana-monkey_banana-box_004" realname="banana-box_004" type="sprite">
+            <frames>
+                <i folder="0" file="9"/>
+            </frames>
+        </obj_info>
+        <obj_info name="banana-monkey_banana-box_005" realname="banana-box_005" type="sprite">
+            <frames>
+                <i folder="0" file="9"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="idle" length="500" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="front-wheel" folder="0" file="1" abs_x="249.5" abs_y="-20.54" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="1" key="0" z_index="0"/>
+                    <object_ref id="1" name="front-cover" folder="0" file="7" abs_x="251.106952" abs_y="-2.57754" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="6" key="0" z_index="1"/>
+                    <object_ref id="2" name="extra-cart" folder="0" file="8" abs_x="-25.394611" abs_y="38.536788" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="7" key="0" z_index="2"/>
+                    <object_ref id="3" name="banana-tuktuk" folder="0" file="0" abs_x="105.5" abs_y="86" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="3"/>
+                    <object_ref id="4" name="back-wheel" folder="0" file="5" abs_x="134.733532" abs_y="-35.696803" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="2" key="0" z_index="4"/>
+                    <object_ref id="5" name="back-cover" folder="0" file="6" abs_x="128.128342" abs_y="-29.860963" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="5" key="0" z_index="5"/>
+                    <object_ref id="6" name="banana-box_003" folder="0" file="9" abs_x="147.186528" abs_y="58.471503" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="14" key="0" z_index="6"/>
+                    <object_ref id="7" name="banaba-tail" folder="0" file="4" abs_x="160.697446" abs_y="39.360115" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="4" key="0" z_index="7"/>
+                    <object_ref id="8" name="banana-driver" folder="0" file="2" abs_x="187.959108" abs_y="82.769517" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="3" key="0" z_index="8"/>
+                    <object_ref id="9" name="back-wheel_000" folder="0" file="5" abs_x="6.754257" abs_y="-35.6968" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="9" key="0" z_index="9"/>
+                    <object_ref id="10" name="back-cover_000" folder="0" file="6" abs_x="0.149067" abs_y="-29.86096" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="8" key="0" z_index="10"/>
+                    <object_ref id="11" name="banana-box" folder="0" file="9" abs_x="-14.772021" abs_y="63.170984" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="10" key="0" z_index="11"/>
+                    <object_ref id="12" name="banana-box_000" folder="0" file="9" abs_x="29.823834" abs_y="59.507772" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="11" key="0" z_index="12"/>
+                    <object_ref id="13" name="banana-box_001" folder="0" file="9" abs_x="-19.989637" abs_y="35.637306" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="12" key="0" z_index="13"/>
+                    <object_ref id="14" name="banana-box_002" folder="0" file="9" abs_x="24.606218" abs_y="30.974093" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="13" key="0" z_index="14"/>
+                    <object_ref id="15" name="banana-box_004" folder="0" file="9" abs_x="104.253886" abs_y="41.492228" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="15" key="0" z_index="15"/>
+                    <object_ref id="16" name="banana-box_005" folder="0" file="9" abs_x="146.849741" abs_y="30.455959" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="16" key="0" z_index="16"/>
+                </key>
+                <key id="1" time="124">
+                    <object_ref id="0" timeline="1" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="6" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="7" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="0" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="2" key="1" z_index="4"/>
+                    <object_ref id="5" timeline="9" key="1" z_index="5"/>
+                    <object_ref id="6" timeline="14" key="1" z_index="6"/>
+                    <object_ref id="7" timeline="4" key="1" z_index="7"/>
+                    <object_ref id="8" timeline="8" key="1" z_index="8"/>
+                    <object_ref id="9" timeline="3" key="1" z_index="9"/>
+                    <object_ref id="10" timeline="5" key="1" z_index="10"/>
+                    <object_ref id="11" timeline="10" key="1" z_index="11"/>
+                    <object_ref id="12" timeline="11" key="1" z_index="12"/>
+                    <object_ref id="13" timeline="12" key="1" z_index="13"/>
+                    <object_ref id="14" timeline="13" key="1" z_index="14"/>
+                    <object_ref id="15" timeline="15" key="1" z_index="15"/>
+                    <object_ref id="16" timeline="16" key="1" z_index="16"/>
+                </key>
+                <key id="2" time="250">
+                    <object_ref id="0" timeline="1" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="6" key="2" z_index="1"/>
+                    <object_ref id="2" timeline="7" key="2" z_index="2"/>
+                    <object_ref id="3" timeline="0" key="2" z_index="3"/>
+                    <object_ref id="4" timeline="2" key="2" z_index="4"/>
+                    <object_ref id="5" timeline="9" key="2" z_index="5"/>
+                    <object_ref id="6" timeline="14" key="2" z_index="6"/>
+                    <object_ref id="7" timeline="4" key="2" z_index="7"/>
+                    <object_ref id="8" timeline="8" key="2" z_index="8"/>
+                    <object_ref id="9" timeline="3" key="2" z_index="9"/>
+                    <object_ref id="10" timeline="5" key="2" z_index="10"/>
+                    <object_ref id="11" timeline="10" key="2" z_index="11"/>
+                    <object_ref id="12" timeline="11" key="2" z_index="12"/>
+                    <object_ref id="13" timeline="12" key="2" z_index="13"/>
+                    <object_ref id="14" timeline="13" key="2" z_index="14"/>
+                    <object_ref id="15" timeline="15" key="2" z_index="15"/>
+                    <object_ref id="16" timeline="16" key="2" z_index="16"/>
+                </key>
+                <key id="3" time="374">
+                    <object_ref id="0" timeline="1" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="6" key="3" z_index="1"/>
+                    <object_ref id="2" timeline="7" key="3" z_index="2"/>
+                    <object_ref id="3" timeline="0" key="3" z_index="3"/>
+                    <object_ref id="4" timeline="2" key="3" z_index="4"/>
+                    <object_ref id="5" timeline="9" key="3" z_index="5"/>
+                    <object_ref id="6" timeline="14" key="3" z_index="6"/>
+                    <object_ref id="7" timeline="4" key="3" z_index="7"/>
+                    <object_ref id="8" timeline="8" key="3" z_index="8"/>
+                    <object_ref id="9" timeline="3" key="3" z_index="9"/>
+                    <object_ref id="10" timeline="5" key="3" z_index="10"/>
+                    <object_ref id="11" timeline="10" key="3" z_index="11"/>
+                    <object_ref id="12" timeline="11" key="3" z_index="12"/>
+                    <object_ref id="13" timeline="12" key="3" z_index="13"/>
+                    <object_ref id="14" timeline="13" key="3" z_index="14"/>
+                    <object_ref id="15" timeline="15" key="3" z_index="15"/>
+                    <object_ref id="16" timeline="16" key="3" z_index="16"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="banana-tuktuk">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="193" y="18" angle="0"/>
+                </key>
+                <key id="1" time="124" spin="0">
+                    <object folder="0" file="0" x="193" y="13" angle="0"/>
+                </key>
+                <key id="2" time="250" spin="0">
+                    <object folder="0" file="0" x="193" y="16.666667" angle="0"/>
+                </key>
+                <key id="3" time="374" spin="0">
+                    <object folder="0" file="0" x="193" y="13.833333" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="front-wheel">
+                <key id="0" curve_type="instant">
+                    <object folder="0" file="1" x="268" y="-37.88" angle="0"/>
+                </key>
+                <key id="1" time="124" curve_type="instant">
+                    <object folder="0" file="1" x="268" y="-38.88" angle="0" scale_x="-1"/>
+                </key>
+                <key id="2" time="250" curve_type="instant">
+                    <object folder="0" file="1" x="268" y="-38.546667" angle="0"/>
+                </key>
+                <key id="3" time="374" curve_type="instant">
+                    <object folder="0" file="1" x="268" y="-38.88" angle="0" scale_x="-1"/>
+                </key>
+            </timeline>
+            <timeline id="2" obj="2" name="back-wheel">
+                <key id="0" curve_type="instant">
+                    <object folder="0" file="5" x="152.733532" y="-51.696803" angle="0"/>
+                </key>
+                <key id="1" time="124" curve_type="instant">
+                    <object folder="0" file="5" x="152.173532" y="-52.696803" angle="0" scale_x="-1"/>
+                </key>
+                <key id="2" time="250" curve_type="instant">
+                    <object folder="0" file="5" x="152.733532" y="-52.36347" angle="0"/>
+                </key>
+                <key id="3" time="374" curve_type="instant">
+                    <object folder="0" file="5" x="152.173532" y="-52.6968" angle="0" scale_x="-1"/>
+                </key>
+            </timeline>
+            <timeline id="3" obj="4" name="banana-driver">
+                <key id="0" spin="0">
+                    <object folder="0" file="2" x="217.959108" y="27.769517" angle="0"/>
+                </key>
+                <key id="1" time="124" spin="0">
+                    <object folder="0" file="2" x="217.959108" y="22.769517" angle="0"/>
+                </key>
+                <key id="2" time="250" spin="0">
+                    <object folder="0" file="2" x="217.959108" y="26.937517" angle="0"/>
+                </key>
+                <key id="3" time="374" spin="0">
+                    <object folder="0" file="2" x="217.959108" y="26.10285" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" obj="5" name="banaba-tail">
+                <key id="0" spin="0">
+                    <object folder="0" file="4" x="199.697446" y="7.360115" angle="0"/>
+                </key>
+                <key id="1" time="124" spin="0">
+                    <object folder="0" file="4" x="199.697446" y="1.360115" angle="0"/>
+                </key>
+                <key id="2" time="250" spin="0">
+                    <object folder="0" file="4" x="199.697446" y="5.030328" angle="0"/>
+                </key>
+                <key id="3" time="374" spin="0">
+                    <object folder="0" file="4" x="199.697446" y="4.689902" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="5" obj="6" name="back-cover">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="153.128342" y="-40.860963" angle="0"/>
+                </key>
+                <key id="1" time="124" spin="0">
+                    <object folder="0" file="6" x="153.128342" y="-41.860963" angle="0"/>
+                </key>
+                <key id="2" time="250" spin="0">
+                    <object folder="0" file="6" x="153.128342" y="-41.860963" angle="0"/>
+                </key>
+                <key id="3" time="374" spin="0">
+                    <object folder="0" file="6" x="153.128342" y="-42.860963" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="6" obj="7" name="front-cover">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" x="268.106952" y="-18.07754" angle="0"/>
+                </key>
+                <key id="1" time="124" spin="0">
+                    <object folder="0" file="7" x="268.106952" y="-19.07754" angle="0"/>
+                </key>
+                <key id="2" time="250" spin="0">
+                    <object folder="0" file="7" x="268.106952" y="-19.07754" angle="0"/>
+                </key>
+                <key id="3" time="374" spin="0">
+                    <object folder="0" file="7" x="268.106952" y="-20.07754" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="7" obj="8" name="extra-cart">
+                <key id="0" spin="0">
+                    <object folder="0" file="8" x="113.725389" y="-26.53886" angle="0"/>
+                </key>
+                <key id="1" time="124" spin="0">
+                    <object folder="0" file="8" x="113.725389" y="-31.53886" angle="0"/>
+                </key>
+                <key id="2" time="250" spin="0">
+                    <object folder="0" file="8" x="113.725389" y="-27.53886" angle="0"/>
+                </key>
+                <key id="3" time="374" spin="0">
+                    <object folder="0" file="8" x="113.725389" y="-31.53886" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="8" obj="9" name="back-cover_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="6" x="25.149067" y="-40.86096" angle="0"/>
+                </key>
+                <key id="1" time="124" spin="0">
+                    <object folder="0" file="6" x="25.149067" y="-41.86096" angle="0"/>
+                </key>
+                <key id="2" time="250" spin="0">
+                    <object folder="0" file="6" x="25.149067" y="-41.86096" angle="0"/>
+                </key>
+                <key id="3" time="374" spin="0">
+                    <object folder="0" file="6" x="25.149067" y="-42.86096" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="9" obj="10" name="back-wheel_000">
+                <key id="0" curve_type="instant">
+                    <object folder="0" file="5" x="24.754257" y="-51.6968" angle="0"/>
+                </key>
+                <key id="1" time="124" curve_type="instant">
+                    <object folder="0" file="5" x="24.754257" y="-52.6968" angle="0" scale_x="-1"/>
+                </key>
+                <key id="2" time="250" curve_type="instant">
+                    <object folder="0" file="5" x="24.754257" y="-52.36347" angle="0"/>
+                </key>
+                <key id="3" time="374" curve_type="instant">
+                    <object folder="0" file="5" x="24.754257" y="-52.6968" angle="0" scale_x="-1"/>
+                </key>
+            </timeline>
+            <timeline id="10" obj="11" name="banana-box">
+                <key id="0" spin="0">
+                    <object folder="0" file="9" x="-14.772021" y="63.170984" angle="0"/>
+                </key>
+                <key id="1" time="124" spin="0">
+                    <object folder="0" file="9" x="-14.772021" y="55.170984" angle="0"/>
+                </key>
+                <key id="2" time="250" spin="0">
+                    <object folder="0" file="9" x="-14.772021" y="62.170984" angle="0"/>
+                </key>
+                <key id="3" time="374" spin="0">
+                    <object folder="0" file="9" x="-14.772021" y="57.170984" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="11" obj="12" name="banana-box_000">
+                <key id="0" spin="0">
+                    <object folder="0" file="9" x="29.823834" y="59.507772" angle="0"/>
+                </key>
+                <key id="1" time="124" spin="0">
+                    <object folder="0" file="9" x="29.823834" y="51.507772" angle="0"/>
+                </key>
+                <key id="2" time="250" spin="0">
+                    <object folder="0" file="9" x="29.823834" y="58.507772" angle="0"/>
+                </key>
+                <key id="3" time="374" spin="0">
+                    <object folder="0" file="9" x="29.823834" y="54.507772" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="12" obj="13" name="banana-box_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="9" x="-19.989637" y="35.637306" angle="0"/>
+                </key>
+                <key id="1" time="124" spin="0">
+                    <object folder="0" file="9" x="-19.989637" y="27.637306" angle="0"/>
+                </key>
+                <key id="2" time="250" spin="0">
+                    <object folder="0" file="9" x="-19.989637" y="34.637306" angle="0"/>
+                </key>
+                <key id="3" time="374" spin="0">
+                    <object folder="0" file="9" x="-19.989637" y="27.637306" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="13" obj="14" name="banana-box_002">
+                <key id="0" spin="0">
+                    <object folder="0" file="9" x="24.606218" y="30.974093" angle="0"/>
+                </key>
+                <key id="1" time="124" spin="0">
+                    <object folder="0" file="9" x="24.606218" y="25.974093" angle="0"/>
+                </key>
+                <key id="2" time="250" spin="0">
+                    <object folder="0" file="9" x="24.606218" y="31.974093" angle="0"/>
+                </key>
+                <key id="3" time="374" spin="0">
+                    <object folder="0" file="9" x="24.606218" y="27.974093" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="14" obj="15" name="banana-box_003">
+                <key id="0" spin="0">
+                    <object folder="0" file="9" x="147.186528" y="58.471503" angle="0"/>
+                </key>
+                <key id="1" time="124" spin="0">
+                    <object folder="0" file="9" x="147.186528" y="52.471503" angle="0"/>
+                </key>
+                <key id="2" time="250" spin="0">
+                    <object folder="0" file="9" x="147.186528" y="57.471503" angle="0"/>
+                </key>
+                <key id="3" time="374" spin="0">
+                    <object folder="0" file="9" x="147.186528" y="50.471503" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="15" obj="16" name="banana-box_004">
+                <key id="0" spin="0">
+                    <object folder="0" file="9" x="104.253886" y="41.492228" angle="0"/>
+                </key>
+                <key id="1" time="124" spin="0">
+                    <object folder="0" file="9" x="104.253886" y="35.492228" angle="0"/>
+                </key>
+                <key id="2" time="250" spin="0">
+                    <object folder="0" file="9" x="104.253886" y="40.492228" angle="0"/>
+                </key>
+                <key id="3" time="374" spin="0">
+                    <object folder="0" file="9" x="104.253886" y="33.492228" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="16" obj="17" name="banana-box_005">
+                <key id="0" spin="0">
+                    <object folder="0" file="9" x="146.849741" y="30.455959" angle="0"/>
+                </key>
+                <key id="1" time="124" spin="0">
+                    <object folder="0" file="9" x="146.849741" y="25.455959" angle="0"/>
+                </key>
+                <key id="2" time="250" spin="0">
+                    <object folder="0" file="9" x="146.849741" y="31.455959" angle="0"/>
+                </key>
+                <key id="3" time="374" spin="0">
+                    <object folder="0" file="9" x="146.849741" y="25.455959" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

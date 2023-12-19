@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r1">
+    <folder id="0">
+        <file id="0" name="HT_TukTuk_stop.png" width="288" height="141" pivot_x="0.5" pivot_y="0.7"/>
+    </folder>
+    <entity id="0" name="tuktukStop">
+        <obj_info name="tuktukStop_HT_TukTuk_stop" realname="HT_TukTuk_stop" type="sprite">
+            <frames>
+                <i folder="0" file="0"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="HT_TukTuk_stop" folder="0" file="0" abs_x="-144" abs_y="42.3" abs_angle="0" abs_scale_x="1" abs_scale_y="1" abs_a="1" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="HT_TukTuk_stop">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-0" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

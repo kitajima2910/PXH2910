@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r1">
+    <folder id="0">
+        <file id="0" name="HeavyTraffic_assets_FX.png" width="179" height="149" pivot_x="0.43" pivot_y="0.4"/>
+        <file id="1" name="HeavyTraffic_assets_FX_star.png" width="112" height="109" pivot_x="0.5" pivot_y="0.42"/>
+    </folder>
+    <entity id="0" name="FX">
+        <obj_info name="FX_HeavyTraffic_assets_FX copy" realname="HeavyTraffic_assets_FX copy" type="sprite">
+            <frames>
+                <i folder="0" file="0"/>
+            </frames>
+        </obj_info>
+        <obj_info name="FX_HeavyTraffic_assets_FX copy22" realname="HeavyTraffic_assets_FX copy22" type="sprite">
+            <frames>
+                <i folder="0" file="1"/>
+            </frames>
+        </obj_info>
+        <animation id="0" name="FXImpact" length="1000" interval="100" looping="false">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" name="HeavyTraffic_assets_FX copy" folder="0" file="0" abs_x="-38.485" abs_y="44.7" abs_angle="0" abs_scale_x="0.5" abs_scale_y="0.5" abs_a="1" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" name="HeavyTraffic_assets_FX copy22" folder="0" file="1" abs_x="-28" abs_y="31.61" abs_angle="0" abs_scale_x="0.5" abs_scale_y="0.5" abs_a="0.5" timeline="1" key="0" z_index="1"/>
+                </key>
+                <key id="1" time="200">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                </key>
+                <key id="2" time="400">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="2" z_index="1"/>
+                </key>
+                <key id="3" time="600">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="3" z_index="1"/>
+                </key>
+                <key id="4" time="800">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="4" z_index="1"/>
+                </key>
+            </mainline>
+            <timeline id="0" obj="0" name="HeavyTraffic_assets_FX copy">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" angle="0" scale_x="0.5" scale_y="0.5"/>
+                </key>
+                <key id="1" time="200" spin="0">
+                    <object folder="0" file="0" angle="0" scale_x="0.8" scale_y="0.8"/>
+                </key>
+                <key id="2" time="400" spin="0">
+                    <object folder="0" file="0" angle="0" scale_x="1.2" scale_y="1.2"/>
+                </key>
+                <key id="3" time="600" spin="0">
+                    <object folder="0" file="0" angle="0" scale_x="1.5" scale_y="1.5" a="0.6"/>
+                </key>
+                <key id="4" time="800" spin="0">
+                    <object folder="0" file="0" angle="0" scale_x="2" scale_y="2" a="0.05"/>
+                </key>
+            </timeline>
+            <timeline id="1" obj="1" name="HeavyTraffic_assets_FX copy22">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" angle="0" scale_x="0.5" scale_y="0.5" a="0.5"/>
+                </key>
+                <key id="1" time="200" spin="0">
+                    <object folder="0" file="1" angle="0" scale_x="0.8" scale_y="0.8" a="0.8"/>
+                </key>
+                <key id="2" time="400" spin="0">
+                    <object folder="0" file="1" angle="0" scale_x="1.5" scale_y="1.5"/>
+                </key>
+                <key id="3" time="600" spin="0">
+                    <object folder="0" file="1" angle="0" scale_x="1.8" scale_y="1.8" a="0.65"/>
+                </key>
+                <key id="4" time="800" spin="0">
+                    <object folder="0" file="1" angle="0" scale_x="2" scale_y="2" a="0.35"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

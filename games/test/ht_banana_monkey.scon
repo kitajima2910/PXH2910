@@ -1,0 +1,1855 @@
+{
+	"entity": [
+		{
+			"animation": [
+				{
+					"gline": [],
+					"id": 0,
+					"interval": 100,
+					"length": 500,
+					"mainline": {
+						"key": [
+							{
+								"bone_ref": [],
+								"id": 0,
+								"object_ref": [
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.49,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 268,
+										"abs_y": 37.88,
+										"file": 1,
+										"folder": 0,
+										"id": 0,
+										"key": 0,
+										"name": "front-wheel",
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 268.106952,
+										"abs_y": 18.07754,
+										"file": 7,
+										"folder": 0,
+										"id": 1,
+										"key": 0,
+										"name": "front-cover",
+										"timeline": "6",
+										"z_index": "1"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.94,
+										"abs_pivot_y": 0.26050400000000007,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 113.725389,
+										"abs_y": 26.53886,
+										"file": 8,
+										"folder": 0,
+										"id": 2,
+										"key": 0,
+										"name": "extra-cart",
+										"timeline": "7",
+										"z_index": "2"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 193,
+										"abs_y": -18,
+										"file": 0,
+										"folder": 0,
+										"id": 3,
+										"key": 0,
+										"name": "banana-tuktuk",
+										"timeline": "0",
+										"z_index": "3"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 152.733532,
+										"abs_y": 51.696803,
+										"file": 5,
+										"folder": 0,
+										"id": 4,
+										"key": 0,
+										"name": "back-wheel",
+										"timeline": "2",
+										"z_index": "4"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 153.128342,
+										"abs_y": 40.860963,
+										"file": 6,
+										"folder": 0,
+										"id": 5,
+										"key": 0,
+										"name": "back-cover",
+										"timeline": "5",
+										"z_index": "5"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 147.186528,
+										"abs_y": -58.471503,
+										"file": 9,
+										"folder": 0,
+										"id": 6,
+										"key": 0,
+										"name": "banana-box_003",
+										"timeline": "14",
+										"z_index": "6"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 1,
+										"abs_pivot_y": 0,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 199.697446,
+										"abs_y": -7.360115,
+										"file": 4,
+										"folder": 0,
+										"id": 7,
+										"key": 0,
+										"name": "banaba-tail",
+										"timeline": "4",
+										"z_index": "7"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 217.959108,
+										"abs_y": -27.769517,
+										"file": 2,
+										"folder": 0,
+										"id": 8,
+										"key": 0,
+										"name": "banana-driver",
+										"timeline": "3",
+										"z_index": "8"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 24.754257000000003,
+										"abs_y": 51.6968,
+										"file": 5,
+										"folder": 0,
+										"id": 9,
+										"key": 0,
+										"name": "back-wheel_000",
+										"timeline": "9",
+										"z_index": "9"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0.5,
+										"abs_pivot_y": 0.5,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 25.149067000000002,
+										"abs_y": 40.86096,
+										"file": 6,
+										"folder": 0,
+										"id": 10,
+										"key": 0,
+										"name": "back-cover_000",
+										"timeline": "8",
+										"z_index": "10"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -14.772021,
+										"abs_y": -63.170984,
+										"file": 9,
+										"folder": 0,
+										"id": 11,
+										"key": 0,
+										"name": "banana-box",
+										"timeline": "10",
+										"z_index": "11"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 29.823833999999998,
+										"abs_y": -59.507772,
+										"file": 9,
+										"folder": 0,
+										"id": 12,
+										"key": 0,
+										"name": "banana-box_000",
+										"timeline": "11",
+										"z_index": "12"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": -19.989637000000002,
+										"abs_y": -35.637306,
+										"file": 9,
+										"folder": 0,
+										"id": 13,
+										"key": 0,
+										"name": "banana-box_001",
+										"timeline": "12",
+										"z_index": "13"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 24.606218,
+										"abs_y": -30.974093,
+										"file": 9,
+										"folder": 0,
+										"id": 14,
+										"key": 0,
+										"name": "banana-box_002",
+										"timeline": "13",
+										"z_index": "14"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 104.253886,
+										"abs_y": -41.492228,
+										"file": 9,
+										"folder": 0,
+										"id": 15,
+										"key": 0,
+										"name": "banana-box_004",
+										"timeline": "15",
+										"z_index": "15"
+									},
+									{
+										"abs_a": 1,
+										"abs_angle": 0,
+										"abs_pivot_x": 0,
+										"abs_pivot_y": 1,
+										"abs_scale_x": 1,
+										"abs_scale_y": 1,
+										"abs_x": 146.849741,
+										"abs_y": -30.455959,
+										"file": 9,
+										"folder": 0,
+										"id": 16,
+										"key": 0,
+										"name": "banana-box_005",
+										"timeline": "16",
+										"z_index": "16"
+									}
+								]
+							},
+							{
+								"bone_ref": [],
+								"id": 1,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 1,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 1,
+										"timeline": "6",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 1,
+										"timeline": "7",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 1,
+										"timeline": "0",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 1,
+										"timeline": "2",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 1,
+										"timeline": "9",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 1,
+										"timeline": "14",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 1,
+										"timeline": "4",
+										"z_index": "7"
+									},
+									{
+										"id": 8,
+										"key": 1,
+										"timeline": "8",
+										"z_index": "8"
+									},
+									{
+										"id": 9,
+										"key": 1,
+										"timeline": "3",
+										"z_index": "9"
+									},
+									{
+										"id": 10,
+										"key": 1,
+										"timeline": "5",
+										"z_index": "10"
+									},
+									{
+										"id": 11,
+										"key": 1,
+										"timeline": "10",
+										"z_index": "11"
+									},
+									{
+										"id": 12,
+										"key": 1,
+										"timeline": "11",
+										"z_index": "12"
+									},
+									{
+										"id": 13,
+										"key": 1,
+										"timeline": "12",
+										"z_index": "13"
+									},
+									{
+										"id": 14,
+										"key": 1,
+										"timeline": "13",
+										"z_index": "14"
+									},
+									{
+										"id": 15,
+										"key": 1,
+										"timeline": "15",
+										"z_index": "15"
+									},
+									{
+										"id": 16,
+										"key": 1,
+										"timeline": "16",
+										"z_index": "16"
+									}
+								],
+								"time": 124
+							},
+							{
+								"bone_ref": [],
+								"id": 2,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 2,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 2,
+										"timeline": "6",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 2,
+										"timeline": "7",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 2,
+										"timeline": "0",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 2,
+										"timeline": "2",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 2,
+										"timeline": "9",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 2,
+										"timeline": "14",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 2,
+										"timeline": "4",
+										"z_index": "7"
+									},
+									{
+										"id": 8,
+										"key": 2,
+										"timeline": "8",
+										"z_index": "8"
+									},
+									{
+										"id": 9,
+										"key": 2,
+										"timeline": "3",
+										"z_index": "9"
+									},
+									{
+										"id": 10,
+										"key": 2,
+										"timeline": "5",
+										"z_index": "10"
+									},
+									{
+										"id": 11,
+										"key": 2,
+										"timeline": "10",
+										"z_index": "11"
+									},
+									{
+										"id": 12,
+										"key": 2,
+										"timeline": "11",
+										"z_index": "12"
+									},
+									{
+										"id": 13,
+										"key": 2,
+										"timeline": "12",
+										"z_index": "13"
+									},
+									{
+										"id": 14,
+										"key": 2,
+										"timeline": "13",
+										"z_index": "14"
+									},
+									{
+										"id": 15,
+										"key": 2,
+										"timeline": "15",
+										"z_index": "15"
+									},
+									{
+										"id": 16,
+										"key": 2,
+										"timeline": "16",
+										"z_index": "16"
+									}
+								],
+								"time": 250
+							},
+							{
+								"bone_ref": [],
+								"id": 3,
+								"object_ref": [
+									{
+										"id": 0,
+										"key": 3,
+										"timeline": "1",
+										"z_index": "0"
+									},
+									{
+										"id": 1,
+										"key": 3,
+										"timeline": "6",
+										"z_index": "1"
+									},
+									{
+										"id": 2,
+										"key": 3,
+										"timeline": "7",
+										"z_index": "2"
+									},
+									{
+										"id": 3,
+										"key": 3,
+										"timeline": "0",
+										"z_index": "3"
+									},
+									{
+										"id": 4,
+										"key": 3,
+										"timeline": "2",
+										"z_index": "4"
+									},
+									{
+										"id": 5,
+										"key": 3,
+										"timeline": "9",
+										"z_index": "5"
+									},
+									{
+										"id": 6,
+										"key": 3,
+										"timeline": "14",
+										"z_index": "6"
+									},
+									{
+										"id": 7,
+										"key": 3,
+										"timeline": "4",
+										"z_index": "7"
+									},
+									{
+										"id": 8,
+										"key": 3,
+										"timeline": "8",
+										"z_index": "8"
+									},
+									{
+										"id": 9,
+										"key": 3,
+										"timeline": "3",
+										"z_index": "9"
+									},
+									{
+										"id": 10,
+										"key": 3,
+										"timeline": "5",
+										"z_index": "10"
+									},
+									{
+										"id": 11,
+										"key": 3,
+										"timeline": "10",
+										"z_index": "11"
+									},
+									{
+										"id": 12,
+										"key": 3,
+										"timeline": "11",
+										"z_index": "12"
+									},
+									{
+										"id": 13,
+										"key": 3,
+										"timeline": "12",
+										"z_index": "13"
+									},
+									{
+										"id": 14,
+										"key": 3,
+										"timeline": "13",
+										"z_index": "14"
+									},
+									{
+										"id": 15,
+										"key": 3,
+										"timeline": "15",
+										"z_index": "15"
+									},
+									{
+										"id": 16,
+										"key": 3,
+										"timeline": "16",
+										"z_index": "16"
+									}
+								],
+								"time": 374
+							}
+						]
+					},
+					"name": "idle",
+					"timeline": [
+						{
+							"id": 0,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"x": 193,
+										"y": 18
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"x": 193,
+										"y": 13
+									},
+									"spin": 0,
+									"time": 124
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"x": 193,
+										"y": 16.666667
+									},
+									"spin": 0,
+									"time": 250
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 0,
+										"folder": 0,
+										"x": 193,
+										"y": 13.833333
+									},
+									"spin": 0,
+									"time": 374
+								}
+							],
+							"name": "banana-tuktuk",
+							"obj": 0
+						},
+						{
+							"id": 1,
+							"key": [
+								{
+									"curve_type": "instant",
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"x": 268,
+										"y": -37.88
+									}
+								},
+								{
+									"curve_type": "instant",
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"scale_x": -1,
+										"x": 268,
+										"y": -38.88
+									},
+									"time": 124
+								},
+								{
+									"curve_type": "instant",
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"x": 268,
+										"y": -38.546667
+									},
+									"time": 250
+								},
+								{
+									"curve_type": "instant",
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 1,
+										"folder": 0,
+										"scale_x": -1,
+										"x": 268,
+										"y": -38.88
+									},
+									"time": 374
+								}
+							],
+							"name": "front-wheel",
+							"obj": 1
+						},
+						{
+							"id": 2,
+							"key": [
+								{
+									"curve_type": "instant",
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 0,
+										"x": 152.733532,
+										"y": -51.696803
+									}
+								},
+								{
+									"curve_type": "instant",
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 0,
+										"scale_x": -1,
+										"x": 152.173532,
+										"y": -52.696803
+									},
+									"time": 124
+								},
+								{
+									"curve_type": "instant",
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 0,
+										"x": 152.733532,
+										"y": -52.36347
+									},
+									"time": 250
+								},
+								{
+									"curve_type": "instant",
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 0,
+										"scale_x": -1,
+										"x": 152.173532,
+										"y": -52.6968
+									},
+									"time": 374
+								}
+							],
+							"name": "back-wheel",
+							"obj": 2
+						},
+						{
+							"id": 3,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"x": 217.959108,
+										"y": 27.769517
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"x": 217.959108,
+										"y": 22.769517
+									},
+									"spin": 0,
+									"time": 124
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"x": 217.959108,
+										"y": 26.937517
+									},
+									"spin": 0,
+									"time": 250
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 2,
+										"folder": 0,
+										"x": 217.959108,
+										"y": 26.10285
+									},
+									"spin": 0,
+									"time": 374
+								}
+							],
+							"name": "banana-driver",
+							"obj": 4
+						},
+						{
+							"id": 4,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 4,
+										"folder": 0,
+										"x": 199.697446,
+										"y": 7.360115
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 4,
+										"folder": 0,
+										"x": 199.697446,
+										"y": 1.360115
+									},
+									"spin": 0,
+									"time": 124
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 4,
+										"folder": 0,
+										"x": 199.697446,
+										"y": 5.030328
+									},
+									"spin": 0,
+									"time": 250
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 4,
+										"folder": 0,
+										"x": 199.697446,
+										"y": 4.689902
+									},
+									"spin": 0,
+									"time": 374
+								}
+							],
+							"name": "banaba-tail",
+							"obj": 5
+						},
+						{
+							"id": 5,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 0,
+										"x": 153.128342,
+										"y": -40.860963
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 0,
+										"x": 153.128342,
+										"y": -41.860963
+									},
+									"spin": 0,
+									"time": 124
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 0,
+										"x": 153.128342,
+										"y": -41.860963
+									},
+									"spin": 0,
+									"time": 250
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 0,
+										"x": 153.128342,
+										"y": -42.860963
+									},
+									"spin": 0,
+									"time": 374
+								}
+							],
+							"name": "back-cover",
+							"obj": 6
+						},
+						{
+							"id": 6,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 7,
+										"folder": 0,
+										"x": 268.106952,
+										"y": -18.07754
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 7,
+										"folder": 0,
+										"x": 268.106952,
+										"y": -19.07754
+									},
+									"spin": 0,
+									"time": 124
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 7,
+										"folder": 0,
+										"x": 268.106952,
+										"y": -19.07754
+									},
+									"spin": 0,
+									"time": 250
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 7,
+										"folder": 0,
+										"x": 268.106952,
+										"y": -20.07754
+									},
+									"spin": 0,
+									"time": 374
+								}
+							],
+							"name": "front-cover",
+							"obj": 7
+						},
+						{
+							"id": 7,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 8,
+										"folder": 0,
+										"x": 113.725389,
+										"y": -26.53886
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 8,
+										"folder": 0,
+										"x": 113.725389,
+										"y": -31.53886
+									},
+									"spin": 0,
+									"time": 124
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 8,
+										"folder": 0,
+										"x": 113.725389,
+										"y": -27.53886
+									},
+									"spin": 0,
+									"time": 250
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 8,
+										"folder": 0,
+										"x": 113.725389,
+										"y": -31.53886
+									},
+									"spin": 0,
+									"time": 374
+								}
+							],
+							"name": "extra-cart",
+							"obj": 8
+						},
+						{
+							"id": 8,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 0,
+										"x": 25.149067000000002,
+										"y": -40.86096
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 0,
+										"x": 25.149067000000002,
+										"y": -41.86096
+									},
+									"spin": 0,
+									"time": 124
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 0,
+										"x": 25.149067000000002,
+										"y": -41.86096
+									},
+									"spin": 0,
+									"time": 250
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 6,
+										"folder": 0,
+										"x": 25.149067000000002,
+										"y": -42.86096
+									},
+									"spin": 0,
+									"time": 374
+								}
+							],
+							"name": "back-cover_000",
+							"obj": 9
+						},
+						{
+							"id": 9,
+							"key": [
+								{
+									"curve_type": "instant",
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 0,
+										"x": 24.754257000000003,
+										"y": -51.6968
+									}
+								},
+								{
+									"curve_type": "instant",
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 0,
+										"scale_x": -1,
+										"x": 24.754257000000003,
+										"y": -52.6968
+									},
+									"time": 124
+								},
+								{
+									"curve_type": "instant",
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 0,
+										"x": 24.754257000000003,
+										"y": -52.36347
+									},
+									"time": 250
+								},
+								{
+									"curve_type": "instant",
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 5,
+										"folder": 0,
+										"scale_x": -1,
+										"x": 24.754257000000003,
+										"y": -52.6968
+									},
+									"time": 374
+								}
+							],
+							"name": "back-wheel_000",
+							"obj": 10
+						},
+						{
+							"id": 10,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": -14.772021,
+										"y": 63.170984
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": -14.772021,
+										"y": 55.170984
+									},
+									"spin": 0,
+									"time": 124
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": -14.772021,
+										"y": 62.170984
+									},
+									"spin": 0,
+									"time": 250
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": -14.772021,
+										"y": 57.170984
+									},
+									"spin": 0,
+									"time": 374
+								}
+							],
+							"name": "banana-box",
+							"obj": 11
+						},
+						{
+							"id": 11,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": 29.823833999999998,
+										"y": 59.507772
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": 29.823833999999998,
+										"y": 51.507772
+									},
+									"spin": 0,
+									"time": 124
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": 29.823833999999998,
+										"y": 58.507772
+									},
+									"spin": 0,
+									"time": 250
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": 29.823833999999998,
+										"y": 54.507772
+									},
+									"spin": 0,
+									"time": 374
+								}
+							],
+							"name": "banana-box_000",
+							"obj": 12
+						},
+						{
+							"id": 12,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": -19.989637000000002,
+										"y": 35.637306
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": -19.989637000000002,
+										"y": 27.637306
+									},
+									"spin": 0,
+									"time": 124
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": -19.989637000000002,
+										"y": 34.637306
+									},
+									"spin": 0,
+									"time": 250
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": -19.989637000000002,
+										"y": 27.637306
+									},
+									"spin": 0,
+									"time": 374
+								}
+							],
+							"name": "banana-box_001",
+							"obj": 13
+						},
+						{
+							"id": 13,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": 24.606218,
+										"y": 30.974093
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": 24.606218,
+										"y": 25.974093
+									},
+									"spin": 0,
+									"time": 124
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": 24.606218,
+										"y": 31.974093
+									},
+									"spin": 0,
+									"time": 250
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": 24.606218,
+										"y": 27.974093
+									},
+									"spin": 0,
+									"time": 374
+								}
+							],
+							"name": "banana-box_002",
+							"obj": 14
+						},
+						{
+							"id": 14,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": 147.186528,
+										"y": 58.471503
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": 147.186528,
+										"y": 52.471503
+									},
+									"spin": 0,
+									"time": 124
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": 147.186528,
+										"y": 57.471503
+									},
+									"spin": 0,
+									"time": 250
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": 147.186528,
+										"y": 50.471503
+									},
+									"spin": 0,
+									"time": 374
+								}
+							],
+							"name": "banana-box_003",
+							"obj": 15
+						},
+						{
+							"id": 15,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": 104.253886,
+										"y": 41.492228
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": 104.253886,
+										"y": 35.492228
+									},
+									"spin": 0,
+									"time": 124
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": 104.253886,
+										"y": 40.492228
+									},
+									"spin": 0,
+									"time": 250
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": 104.253886,
+										"y": 33.492228
+									},
+									"spin": 0,
+									"time": 374
+								}
+							],
+							"name": "banana-box_004",
+							"obj": 16
+						},
+						{
+							"id": 16,
+							"key": [
+								{
+									"id": 0,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": 146.849741,
+										"y": 30.455959
+									},
+									"spin": 0
+								},
+								{
+									"id": 1,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": 146.849741,
+										"y": 25.455959
+									},
+									"spin": 0,
+									"time": 124
+								},
+								{
+									"id": 2,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": 146.849741,
+										"y": 31.455959
+									},
+									"spin": 0,
+									"time": 250
+								},
+								{
+									"id": 3,
+									"object": {
+										"angle": 0,
+										"file": 9,
+										"folder": 0,
+										"x": 146.849741,
+										"y": 25.455959
+									},
+									"spin": 0,
+									"time": 374
+								}
+							],
+							"name": "banana-box_005",
+							"obj": 17
+						}
+					]
+				}
+			],
+			"character_map": [],
+			"id": 0,
+			"name": "banana-monkey",
+			"obj_info": [
+				{
+					"frames": [
+						{
+							"file": 0,
+							"folder": 0
+						}
+					],
+					"name": "banana-monkey_banana-tuktuk",
+					"realname": "banana-tuktuk",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 1,
+							"folder": 0
+						}
+					],
+					"name": "banana-monkey_front-wheel",
+					"realname": "front-wheel",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 5,
+							"folder": 0
+						}
+					],
+					"name": "banana-monkey_back-wheel",
+					"realname": "back-wheel",
+					"type": "sprite"
+				},
+				{
+					"frames": [],
+					"name": "banana-monkey_banana-boxes",
+					"realname": "banana-boxes",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 2,
+							"folder": 0
+						}
+					],
+					"name": "banana-monkey_banana-driver",
+					"realname": "banana-driver",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 4,
+							"folder": 0
+						}
+					],
+					"name": "banana-monkey_banaba-tail",
+					"realname": "banaba-tail",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 6,
+							"folder": 0
+						}
+					],
+					"name": "banana-monkey_back-cover",
+					"realname": "back-cover",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 7,
+							"folder": 0
+						}
+					],
+					"name": "banana-monkey_front-cover",
+					"realname": "front-cover",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 8,
+							"folder": 0
+						}
+					],
+					"name": "banana-monkey_extra-cart",
+					"realname": "extra-cart",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 6,
+							"folder": 0
+						}
+					],
+					"name": "banana-monkey_back-cover_000",
+					"realname": "back-cover_000",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 5,
+							"folder": 0
+						}
+					],
+					"name": "banana-monkey_back-wheel_000",
+					"realname": "back-wheel_000",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 9,
+							"folder": 0
+						}
+					],
+					"name": "banana-monkey_banana-box",
+					"realname": "banana-box",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 9,
+							"folder": 0
+						}
+					],
+					"name": "banana-monkey_banana-box_000",
+					"realname": "banana-box_000",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 9,
+							"folder": 0
+						}
+					],
+					"name": "banana-monkey_banana-box_001",
+					"realname": "banana-box_001",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 9,
+							"folder": 0
+						}
+					],
+					"name": "banana-monkey_banana-box_002",
+					"realname": "banana-box_002",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 9,
+							"folder": 0
+						}
+					],
+					"name": "banana-monkey_banana-box_003",
+					"realname": "banana-box_003",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 9,
+							"folder": 0
+						}
+					],
+					"name": "banana-monkey_banana-box_004",
+					"realname": "banana-box_004",
+					"type": "sprite"
+				},
+				{
+					"frames": [
+						{
+							"file": 9,
+							"folder": 0
+						}
+					],
+					"name": "banana-monkey_banana-box_005",
+					"realname": "banana-box_005",
+					"type": "sprite"
+				}
+			]
+		}
+	],
+	"folder": [
+		{
+			"file": [
+				{
+					"height": 136,
+					"id": 0,
+					"name": "banana-tuktuk.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 175
+				},
+				{
+					"height": 34,
+					"id": 1,
+					"name": "front-wheel.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.49,
+					"width": 37
+				},
+				{
+					"height": 110,
+					"id": 2,
+					"name": "banana-driver.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 60
+				},
+				{
+					"height": 85,
+					"id": 3,
+					"name": "banana-boxes.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 89
+				},
+				{
+					"height": 32,
+					"id": 4,
+					"name": "banaba-tail.png",
+					"pivot_x": 1,
+					"pivot_y": 0,
+					"width": 39
+				},
+				{
+					"height": 32,
+					"id": 5,
+					"name": "back-wheel.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 36
+				},
+				{
+					"height": 22,
+					"id": 6,
+					"name": "back-cover.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 50
+				},
+				{
+					"height": 31,
+					"id": 7,
+					"name": "front-cover.png",
+					"pivot_x": 0.5,
+					"pivot_y": 0.5,
+					"width": 34
+				},
+				{
+					"height": 88,
+					"id": 8,
+					"name": "extra-cart.png",
+					"pivot_x": 0.94,
+					"pivot_y": 0.26050400000000007,
+					"width": 148
+				},
+				{
+					"height": 50,
+					"id": 9,
+					"name": "banana-box.png",
+					"pivot_x": 0,
+					"pivot_y": 1,
+					"width": 45
+				}
+			],
+			"id": 0
+		}
+	],
+	"generator": "BrashMonkey Spriter",
+	"generator_version": "r1",
+	"scon_version": "1.0"
+}
