@@ -81,3 +81,7 @@
     color: rgb(87, 87, 87);
     text-decoration: overline;
 }
+
+.component-htmlcssjs .repo {
+    display: none;
+}

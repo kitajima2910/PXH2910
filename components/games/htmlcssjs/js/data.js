@@ -1,10 +1,10 @@
 var DATA_HTML_CSS_JS = [
     {
-        tooltip: "Sử dụng chuột trái để bắn",
-        img: "",
-        subTitle: "Bắn Vịt",
-        githubRepo: "",
-        live: "games/test/index.html"
+        tooltip: "Space (Bắn), phím mũi tên di chuyển. Có thể sử dụng touch để chơi",
+        img: "assets/img/games/Space-Shooter.PNG",
+        subTitle: "Bắn Máy Bay",
+        githubRepo: "https://github.com/kitajima2910/PXH2910/tree/master/games/Space-Shooter",
+        live: "games/Space-Shooter/index.html"
     },
     {
         tooltip: "Sử dụng chuột trái để bắn",
