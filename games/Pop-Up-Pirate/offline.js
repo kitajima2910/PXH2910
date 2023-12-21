@@ -1,0 +1,30 @@
+﻿{
+	"version": 1703144011,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-3.4.1.min.js",
+		"offlineClient.js",
+		"images/bg-sheet0.png",
+		"images/hole-sheet0.png",
+		"images/skullcap-sheet0.png",
+		"images/skullcap-sheet1.png",
+		"images/music-sheet0.png",
+		"images/music-sheet1.png",
+		"images/replay-sheet0.png",
+		"images/replay-sheet1.png",
+		"images/lose-sheet0.png",
+		"media/m-click.m4a",
+		"media/m-click.ogg",
+		"media/m-gameplay.ogg",
+		"media/m-hole.m4a",
+		"media/m-hole.ogg",
+		"media/m-lose.ogg",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}
