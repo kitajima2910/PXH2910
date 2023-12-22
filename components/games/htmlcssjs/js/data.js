@@ -1,6 +1,13 @@
 var DATA_HTML_CSS_JS = [
     {
         tooltip: "Sử dụng chuột để chơi",
+        img: "assets/img/games/Tower-Defense.PNG",
+        subTitle: "Tháp Phòng Thủ",
+        githubRepo: "https://github.com/kitajima2910/PXH2910/tree/master/games/Tower-Defense",
+        live: "games/Tower-Defense/index.html"
+    },
+    {
+        tooltip: "Sử dụng chuột để chơi",
         img: "assets/img/games/Pop-Up-Pirate.PNG",
         subTitle: "Vua Hải Tặc",
         githubRepo: "https://github.com/kitajima2910/PXH2910/tree/master/games/Pop-Up-Pirate",
