@@ -6,13 +6,50 @@ $(document).ready(() => {
         let HTML_CSS_JS = document.querySelector(".html-css-js");
         let rowHTML_CSS_JS = HTML_CSS_JS.querySelector(".row");
 
-        // Update data
-        const updateData = (e) => {
-            // Đỗ data vào HTML_CSS_JS
-            for (let data of DATA_HTML_CSS_JS) {
-                rowHTML_CSS_JS.appendChild(createCard(data));
-            }
+
+        let countPages = 0;
+        let maxRecord = 6;
+        let coutRecord = DATA_HTML_CSS_JS.length;
+        if (coutRecord % maxRecord == 0) {
+            countPages = Math.floor(coutRecord / maxRecord);
+        } else {
+            countPages = Math.floor(coutRecord / maxRecord) + 1;
         }
+
+        // Update pages
+        const createPages = () => {
+
+            let pages = HTML_CSS_JS.querySelector(".hcj");
+
+            for (let i = 1; i <= countPages; i++) {
+                let a = document.createElement("a");
+                a.classList.add("index-page");
+                a.classList.add("hjc");
+                a.setAttribute("href", `#hjc-${i}`);
+                a.textContent = i + " ";
+                pages.appendChild(a);
+            }
+
+        };
+        createPages();
+
+        let as = document.querySelectorAll(".hcj")
+        as.forEach(el => {
+            el.addEventListener("click", function (e) {
+                // console.log(e.target.innerText);
+                let index = e.target.innerText;
+                let end = index * maxRecord;
+                let start = end - maxRecord;
+
+                const DATA_CLONE = JSON.parse(JSON.stringify(DATA_HTML_CSS_JS));
+                const DATA_HTML_CSS_JS_CLONE = DATA_CLONE.splice(start, end);
+                rowHTML_CSS_JS.innerHTML = "";
+
+                for (let data of DATA_HTML_CSS_JS_CLONE) {
+                    rowHTML_CSS_JS.appendChild(createCard(data));
+                }
+            });
+        });
 
         // Create card
         const createCard = (data) => {
@@ -83,6 +120,21 @@ $(document).ready(() => {
             return card;
         }
 
+        // Update data
+        const updateData = (e) => {
+            // Đỗ data vào HTML_CSS_JS
+
+            let end = 1 * maxRecord;
+            let start = end - maxRecord;
+
+            const DATA_CLONE = JSON.parse(JSON.stringify(DATA_HTML_CSS_JS));
+            const DATA_HTML_CSS_JS_CLONE = DATA_CLONE.splice(start, end);
+            rowHTML_CSS_JS.innerHTML = "";
+
+            for (let data of DATA_HTML_CSS_JS_CLONE) {
+                rowHTML_CSS_JS.appendChild(createCard(data));
+            }
+        }
         updateData();
 
         window.htmlcssjs++;
