@@ -1,5 +1,19 @@
 var DATA_HTML_CSS_JS = [
     {
+        tooltip: "TEST 02",
+        img: "",
+        subTitle: "TEST 02",
+        githubRepo: "",
+        live: "games/RTCWS/test02.html"
+    },
+    {
+        tooltip: "TEST 01",
+        img: "",
+        subTitle: "TEST 01",
+        githubRepo: "",
+        live: "games/RTCWS/test01.html"
+    },
+    {
         tooltip: "Sử dụng chuột để chơi",
         img: "assets/img/games/Tower-Defense.PNG",
         subTitle: "Tháp Phòng Thủ",
