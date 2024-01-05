@@ -21,12 +21,12 @@ $(document).ready(() => {
 
             let pages = HTML_CSS_JS.querySelector(".hcj");
 
-            for (let i = 1; i <= countPages; i++) {
+            for (let i = 0; i < countPages; i++) {
                 let a = document.createElement("a");
                 a.classList.add("index-page");
                 a.classList.add("hjc");
-                a.setAttribute("href", `#hjc-${i}`);
-                a.textContent = i + " ";
+                // a.setAttribute("href", `#hjc-${i}`);
+                a.textContent = (i + 1) + " ";
                 pages.appendChild(a);
             }
 
@@ -38,11 +38,14 @@ $(document).ready(() => {
             el.addEventListener("click", function (e) {
                 // console.log(e.target.innerText);
                 let index = e.target.innerText;
-                let end = index * maxRecord;
-                let start = end - maxRecord;
+                let end = index * maxRecord; // 1*6, 2*6, 3*6
+                let start = end - maxRecord; // 0-6, 6-12, 12-...
 
                 const DATA_CLONE = JSON.parse(JSON.stringify(DATA_HTML_CSS_JS));
-                const DATA_HTML_CSS_JS_CLONE = DATA_CLONE.splice(start, end);
+                const DATA_HTML_CSS_JS_CLONE = DATA_CLONE.slice(start, end);
+                console.log("PXH: ", DATA_HTML_CSS_JS_CLONE);
+                console.log("PXH end: ", index * maxRecord);
+                console.log("PXH: start: ", end - maxRecord);
                 rowHTML_CSS_JS.innerHTML = "";
 
                 for (let data of DATA_HTML_CSS_JS_CLONE) {
@@ -128,7 +131,7 @@ $(document).ready(() => {
             let start = end - maxRecord;
 
             const DATA_CLONE = JSON.parse(JSON.stringify(DATA_HTML_CSS_JS));
-            const DATA_HTML_CSS_JS_CLONE = DATA_CLONE.splice(start, end);
+            const DATA_HTML_CSS_JS_CLONE = DATA_CLONE.slice(start, end);
             rowHTML_CSS_JS.innerHTML = "";
 
             for (let data of DATA_HTML_CSS_JS_CLONE) {
