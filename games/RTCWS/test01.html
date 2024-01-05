@@ -97,6 +97,9 @@
     document.getElementById("txtStatus").textContent = "Trạng thái: Close";
     txtAccept.value = "";
     txtCreate.value = "";
+    setTimeout(() => {
+      window.location.reload();
+    }, 500);
   };
 
   const interval = setInterval(() => {
