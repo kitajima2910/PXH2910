@@ -1,15 +1,15 @@
 var DATA_HTML_CSS_JS = [
     {
-        tooltip: "TEST 02",
-        img: "",
-        subTitle: "TEST 02",
+        tooltip: "TEST REMOTE",
+        img: "assets/img/games/WebRTC.gif",
+        subTitle: "TEST REMOTE",
         githubRepo: "",
         live: "games/RTCWS/test02.html"
     },
     {
-        tooltip: "TEST 01",
-        img: "",
-        subTitle: "TEST 01",
+        tooltip: "TEST LOCAL",
+        img: "assets/img/games/WebRTC.gif",
+        subTitle: "TEST LOCAL",
         githubRepo: "",
         live: "games/RTCWS/test01.html"
     },
