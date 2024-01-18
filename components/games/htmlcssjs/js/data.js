@@ -1,5 +1,12 @@
 var DATA_HTML_CSS_JS = [
     {
+        tooltip: "Sử dụng mũi tên trái - phải",
+        img: "assets/img/games/Game-Nhay-Cao.png",
+        subTitle: "Game Nhảy Cao",
+        githubRepo: "https://github.com/kitajima2910/PXH2910/tree/master/games/Jump-Game-Nhay-Cao",
+        live: "games/Jump-Game-Nhay-Cao/index.html"
+    },
+    {
         tooltip: "TEST REMOTE",
         img: "assets/img/games/WebRTC.gif",
         subTitle: "TEST REMOTE",
