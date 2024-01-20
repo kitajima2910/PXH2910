@@ -1,6 +1,6 @@
 var DATA_HTML_CSS_JS = [
     {
-        tooltip: "Sử dụng mũi tên để di chuyển, nhảy",
+        tooltip: "Sử dụng mũi tên để di chuyển và nhảy",
         img: "assets/img/games/Test-Game-Di-Canh.png",
         subTitle: "Test Game Đi Cảnh",
         githubRepo: "https://github.com/kitajima2910/PXH2910/tree/master/games/Test-Game-Di-Canh",
