@@ -1,5 +1,5 @@
 const ball = document.querySelector(".ball")
-const move = 10
+const move = 20
 
 const handleMotion = e => {
     const x = Math.round(e.accelerationIncludingGravity.x) * move
@@ -12,6 +12,8 @@ const handleMotion = e => {
 
     if (x !== 0 && y !== 0) {
         ball.style.transform = `translate3d(${-x}px, ${y}px, ${z}px)`
+    } else {
+        ball.style.transform = `translate3d(0px, 0px, ${z}px)`
     }
 
 }
