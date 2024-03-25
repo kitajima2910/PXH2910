@@ -1,5 +1,5 @@
 const ball = document.querySelector(".ball")
-const move = 300
+const move = 10
 
 const handleMotion = e => {
     const x = Math.round(e.accelerationIncludingGravity.x) * move
