@@ -12,8 +12,8 @@ body {
 }
 
 .ball {
-    width: 1em;
-    height: 1em;
+    width: 1.2em;
+    height: 1.2em;
     border-radius: 50%;
     background-color: blue;
     transition: transform .25s;
