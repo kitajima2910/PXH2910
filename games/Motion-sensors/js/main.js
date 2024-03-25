@@ -24,6 +24,9 @@ const handleMotion = e => {
         y = wall.clientHeight
     }
 
+    console.log("pxh wall.clientWidth: ", wall.clientWidth)
+    console.log("pxh wall.clientHeight: ", wall.clientHeight)
+
     document.querySelector("#x").value = "alpha X: " + x;
 	document.querySelector("#y").value = "alpha Y: " + y;
 	document.querySelector("#z").value = "alpha z: " + z;
