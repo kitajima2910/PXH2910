@@ -10,7 +10,7 @@ const handleMotion = e => {
 	document.querySelector("#y").value = "alpha Y: " + y;
 	document.querySelector("#z").value = "alpha z: " + z;
 
-    ball.style.transform = `translate3d(${-x}px, ${y}px, ${z}px)`
+    ball.style.transform = `translate3d(${x}px, ${y}px, ${z}px)`
 
 }
 
