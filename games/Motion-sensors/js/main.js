@@ -1,5 +1,4 @@
 const ball = document.querySelector(".ball")
-const wall = document.querySelector(".wall")
 const move = 10
 
 const handleMotion = e => {
