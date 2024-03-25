@@ -1,5 +1,12 @@
 var DATA_HTML_CSS_JS = [
     {
+        tooltip: "Sử dụng chạy trên mobile",
+        img: "assets/img/games/Motion-sensors.PNG",
+        subTitle: "Motion sensors",
+        githubRepo: "https://github.com/kitajima2910/PXH2910/tree/master/games/Motion-sensors",
+        live: "games/Motion-sensors/index.html"
+    },
+    {
         tooltip: "Sử dụng mũi tên để di chuyển và nhảy",
         img: "assets/img/games/Test-Game-Di-Canh.png",
         subTitle: "Test Game Đi Cảnh",
