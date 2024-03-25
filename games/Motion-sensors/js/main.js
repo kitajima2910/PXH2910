@@ -8,22 +8,6 @@ const handleMotion = e => {
     let z = e.accelerationIncludingGravity.z * move
 
     // Bounding Box Check
-    if (x < 0) {
-        x = 0
-    }
-
-    if (y < 0) {
-        y = 0
-    }
-
-    if (x > wall.clientWidth) {
-        x = wall.clientWidth
-    }
-
-    if (y > wall.clientHeight) {
-        y = wall.clientHeight
-    }
-
     console.log("pxh wall.clientWidth: ", wall.clientWidth)
     console.log("pxh wall.clientHeight: ", wall.clientHeight)
 
