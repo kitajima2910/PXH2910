@@ -66,6 +66,15 @@ const DATA_HTML_CSS_JS = [
         title: "Space Shooter",
         platform: "Website / Mobile",
         live: "./assets/html/Space-Shooter/index.html"
+    },
+    {
+        img: "./assets/imgs/Test-Game-Di-Canh.PNG",
+        tutorial: `
+            <span>Di chuyển bằng phím mũi tên</span>
+            `,
+        title: "Test Game Đi Cảnh",
+        platform: "Website",
+        live: "./assets/html/Test-Game-Di-Canh/index.html"
     }
 ];
 
