@@ -1,5 +1,5 @@
 import "./assets/main.css"
-import logo from "./assets/logo.png"
+import logo from "./assets/Remove-BG-Logo.png"
 import { Link, NavLink } from "react-router-dom"
 
 const Menu = () => {
@@ -8,7 +8,9 @@ const Menu = () => {
 
         <div className="Menu">
             <div className="logo">
-                <img src={logo} alt="Logo PXH2910" />
+                <NavLink to="/" target="_blank">
+                    <img src={logo} alt="Logo PXH2910" />
+                </NavLink>
             </div>
             <div className="name">
                 <NavLink to="/Games">{({ isActive, isPending, isTransitioning }) => (

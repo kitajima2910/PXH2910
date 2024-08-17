@@ -21,8 +21,6 @@
 
     font-size: 14px;
     font-weight: 700;
-
-    cursor: pointer;
 }
 
 .Menu a {
@@ -37,4 +35,8 @@
 
 .Menu .contacts {
     font-size: 30px;
+}
+
+.Menu .contacts i:hover {
+    color: red;
 }
