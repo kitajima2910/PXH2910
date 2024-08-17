@@ -17,7 +17,7 @@ const DATA_HTML_CSS_JS = [
             <span>Arrow right: đi sang phải</span>
             `,
         title: "Breaking Bricks",
-        platform: "Website / Mobile",
+        platform: "Website",
         live: "./assets/html/Breaking-Bricks/index.html"
     }
 ];
