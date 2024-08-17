@@ -75,6 +75,15 @@ const DATA_HTML_CSS_JS = [
         title: "Test Game Đi Cảnh",
         platform: "Website",
         live: "./assets/html/Test-Game-Di-Canh/index.html"
+    },
+    {
+        img: "./assets/imgs/Tower-Defense.PNG",
+        tutorial: `
+            <span>Sử dụng mouse để chơi</span>
+            `,
+        title: "Tower Defense",
+        platform: "Website / Mobile",
+        live: "./assets/html/Tower-Defense/index.html"
     }
 ];
 
