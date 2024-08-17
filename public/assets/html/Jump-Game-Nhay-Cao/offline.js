@@ -1,0 +1,29 @@
+﻿{
+	"version": 1705555120,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-3.4.1.min.js",
+		"offlineClient.js",
+		"images/bg-sheet0.png",
+		"images/pedestal-sheet0.png",
+		"images/pedestal2-sheet0.png",
+		"images/star-sheet0.png",
+		"images/star-sheet1.png",
+		"images/nvjump-sheet0.png",
+		"images/nvjump-sheet1.png",
+		"images/buttonoff-sheet0.png",
+		"images/buttonoff-sheet1.png",
+		"media/collect.m4a",
+		"media/collect.ogg",
+		"media/jump.m4a",
+		"media/jump.ogg",
+		"media/play.ogg",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}

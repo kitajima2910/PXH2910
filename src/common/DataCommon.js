@@ -37,6 +37,25 @@ const DATA_HTML_CSS_JS = [
         title: "Duck Hunt",
         platform: "Website / Mobile",
         live: "./assets/html/Duck-Hunt/index.html"
+    },
+    {
+        img: "./assets/imgs/Jump-Game-Nhay-Cao.PNG",
+        tutorial: `
+            <span>Arrow Left: đi sang trái</span>
+            <span>Arrow right: đi sang phải</span>
+            `,
+        title: "Jump Game Nhảy Cao",
+        platform: "Website",
+        live: "./assets/html/Jump-Game-Nhay-Cao/index.html"
+    },
+    {
+        img: "./assets/imgs/Pop-Up-Pirate.PNG",
+        tutorial: `
+            <span>Sử dụng mouse để chơi</span>
+            `,
+        title: "Pop Up Pirate",
+        platform: "Website / Mobile",
+        live: "./assets/html/Pop-Up-Pirate/index.html"
     }
 ];
 
