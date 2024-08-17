@@ -1,0 +1,40 @@
+.Menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Menu .logo {
+    width: 150px;
+}
+
+.Menu .logo img {
+    width: 100%;
+}
+
+.Menu .name {
+    width: 100%;
+    display: flex;
+
+    gap: 20px;
+    padding: 20px;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+.Menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.Menu .name a.active {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.Menu .contacts {
+    font-size: 30px;
+}
