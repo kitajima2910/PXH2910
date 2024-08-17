@@ -1,0 +1,69 @@
+.ImagesGame {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+}
+
+.ImagesGame img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.ImagesGame .sub-box {
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    height: 170px;
+}
+
+.ImagesGame .sub-box .overlayer-v1 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .2);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+}
+
+.ImagesGame .sub-box .overlayer-v1 .overlayer-v2 {
+    width: 100%;
+    height: 100%;
+    display: none;
+    text-align: center;
+
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+
+    color: rgba(255, 255, 255, 1);
+}
+
+.ImagesGame .sub-box .overlayer-v1 .overlayer-v2 .btn-playgame {
+    font-size: 40px;
+    margin: 10px;
+}
+
+.ImagesGame .sub-box .overlayer-v1 .overlayer-v2 .tutorial span {
+    font-size: 14px;
+    display: block;
+}
+
+.ImagesGame .sub-box .overlayer-v1:hover .overlayer-v2 {
+    display: block;
+}
+
+.ImagesGame .box .title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.ImagesGame .box .platform {
+    font-size: 14px;
+    font-weight: 500;
+}

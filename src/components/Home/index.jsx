@@ -1,7 +1,8 @@
 import "./assets/main.css"
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
-import Menu from "../Menu"
 import { useEffect } from "react";
+import Menu from "../Menu"
+import Footer from "../footer";
 
 const Home = () => {
 
@@ -17,12 +18,17 @@ const Home = () => {
     }, [localtion, navigate])
 
     return (
-        <div className="Home">
-            <Menu />
-            <div className="content-children">
-                <Outlet />
+        <>
+            <div className="Home">
+                <Menu />
+                <div className="content-children">
+                    <Outlet />
+                </div>
+
             </div>
-        </div>
+            <Footer />
+        </>
+
     )
 
 }

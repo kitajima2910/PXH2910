@@ -1,5 +1,3 @@
-import { useEffect } from "react"
-
 const Tools = () => {
 
     document.title = "Tools . PXH2910"
