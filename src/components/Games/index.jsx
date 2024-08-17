@@ -1,11 +1,18 @@
+import { useEffect } from "react"
 import ImagesGame from "../../widgets/ImagesGame"
 import { useLocation } from "react-router-dom"
 
 const Games = () => {
 
-    document.title = "Games . PXH2910"
-
     const localtion = useLocation()
+
+    useEffect(() => {
+        if (localtion && localtion.state && localtion.state.title) {
+            document.title = `${localtion.state.title} . PXH2910`
+        } else {
+            document.title = "Games . PXH2910"
+        }
+    }, [localtion])
 
     return (
         <div className="Games" style={localtion && localtion.state && localtion.state.dataGameplay ? { display: "flex", justifyContent: "center" } : {}}>

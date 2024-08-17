@@ -19,6 +19,24 @@ const DATA_HTML_CSS_JS = [
         title: "Breaking Bricks",
         platform: "Website",
         live: "./assets/html/Breaking-Bricks/index.html"
+    },
+    {
+        img: "./assets/imgs/Drag-And-Drop.PNG",
+        tutorial: `
+            <span>Sử dụng mouse để kéo thả</span>
+            `,
+        title: "Drag and Drop",
+        platform: "Website / Mobile",
+        live: "./assets/html/Drag-And-Drop/index.html"
+    },
+    {
+        img: "./assets/imgs/Duck-Hunt.PNG",
+        tutorial: `
+            <span>Sử dụng mouse để bắn</span>
+            `,
+        title: "Duck Hunt",
+        platform: "Website / Mobile",
+        live: "./assets/html/Duck-Hunt/index.html"
     }
 ];
 

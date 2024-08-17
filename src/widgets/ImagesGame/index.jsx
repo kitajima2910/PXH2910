@@ -18,7 +18,7 @@ const ImagesGame = () => {
                 <div key={data.title} className="box">
                     <div className="sub-box">
                         <img src={data.img} alt="Logo Game" />
-                        <Link to={"/Games"} state={{ dataGameplay: data.live }}>
+                        <Link to={"/Games"} state={{ dataGameplay: data.live, title: data.title }}>
                             <div className="overlayer-v1">
                                 <div className="overlayer-v2">
                                     <div className="btn-playgame">Play Game</div>
