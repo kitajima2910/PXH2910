@@ -8,9 +8,9 @@ const Menu = () => {
 
         <div className="Menu">
             <div className="logo">
-                <NavLink to="/" target="_blank">
+                <Link to="/">
                     <img src={logo} alt="Logo PXH2910" />
-                </NavLink>
+                </Link>
             </div>
             <div className="name">
                 <NavLink to="/Games">{({ isActive, isPending, isTransitioning }) => (
