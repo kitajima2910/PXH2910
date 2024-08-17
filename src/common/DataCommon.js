@@ -56,6 +56,16 @@ const DATA_HTML_CSS_JS = [
         title: "Pop Up Pirate",
         platform: "Website / Mobile",
         live: "./assets/html/Pop-Up-Pirate/index.html"
+    },
+    {
+        img: "./assets/imgs/Space-Shooter.PNG",
+        tutorial: `
+            <span>Di chuyển bằng phím mũi tên</span>
+            <span>Bắn bằng phím space</span>
+            `,
+        title: "Space Shooter",
+        platform: "Website / Mobile",
+        live: "./assets/html/Space-Shooter/index.html"
     }
 ];
 

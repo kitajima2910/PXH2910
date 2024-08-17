@@ -1,0 +1,29 @@
+﻿{
+	"version": 1703080639,
+	"fileList": [
+		"data.js",
+		"c2runtime.js",
+		"jquery-3.4.1.min.js",
+		"offlineClient.js",
+		"images/background.png",
+		"images/player-sheet0.png",
+		"images/enemy-sheet0.png",
+		"images/laser-sheet0.png",
+		"images/particles.png",
+		"images/plaayerparticles.png",
+		"images/enemyparticles.png",
+		"images/shield_gold-sheet0.png",
+		"images/shield-sheet0.png",
+		"images/sprite-sheet0.png",
+		"images/transparentlight-sheet0.png",
+		"images/abutton-sheet0.png",
+		"images/transparentdark-sheet0.png",
+		"images/upbutton.png",
+		"icon-16.png",
+		"icon-32.png",
+		"icon-114.png",
+		"icon-128.png",
+		"icon-256.png",
+		"loading-logo.png"
+	]
+}
