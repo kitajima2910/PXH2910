@@ -3,12 +3,33 @@ import { DATA_HTML_CSS_JS } from "../../common/DataCommon"
 import parse from "html-react-parser"
 import { Link } from "react-router-dom"
 import About from "../../components/About"
+import { useEffect, useState } from "react"
 
 const datas = DATA_HTML_CSS_JS
+const maxLen = datas.length
+
+let showItems = 5
 
 const ImagesGame = () => {
 
     // console.log(datas);
+
+    const [listData, setListData] = useState([])
+    const [page, setPage] = useState(1)
+    const [indexPage, setIndexPage] = useState(0)
+
+    useEffect(() => {
+        setListData([...listData, ...datas.slice(page === 1 ? 0 : showItems * indexPage, showItems * page)]);
+
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [page, indexPage])
+
+    const onLoadMore = () => {
+        setPage(page + 1)
+        setIndexPage(indexPage + 1)
+    }
+
+    // console.log("PXH: listData = ", listData, " , page = ", page, " , indexPage = ", indexPage);
 
     return (
 
@@ -17,9 +38,9 @@ const ImagesGame = () => {
 
             <div className="ImagesGame">
 
-                {datas && datas.map((data) =>
+                {listData && listData.map((data, index) =>
                 (
-                    <div key={data.title} className="box">
+                    <div key={index + data.title} className="box">
                         <div className="sub-box">
                             <img src={data.img} alt="Logo Game" />
                             <Link to={"/Games"} state={{ dataGameplay: data.live, title: data.title }}>
@@ -40,6 +61,8 @@ const ImagesGame = () => {
                 )}
 
             </div>
+
+            {showItems * page < maxLen && <div className="btn-loading" content="TẢI THÊM GAMES" onClick={() => onLoadMore()}></div>}
         </>
 
     )
