@@ -2,8 +2,10 @@ import "./assets/main.css"
 
 const Footer = () => {
 
+
+
     return (
-        <div className="Footer">Copyright © 2010 - 2024 · All rights reserved</div>
+        <div className="Footer">Copyright © 2023 - { new Date().getFullYear() } · All rights reserved</div>
     )
 
 }
