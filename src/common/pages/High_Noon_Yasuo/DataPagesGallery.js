@@ -31,7 +31,7 @@ const DATA_GALLERY = {
     ]
 };
 
-const DATA_NAME = ["TestRandom", "High_Noon_Yasuo"]
+const DATA_NAME = ["TestRandom"]
 
 export {
     DATA_GALLERY,
