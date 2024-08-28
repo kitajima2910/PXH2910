@@ -12,9 +12,9 @@ const Menu = () => {
                     <img src={logo} alt="Logo PXH2910" />
                     <div className="virtual-numbers">
                         <picture>
-                            <img src="https://camo.githubusercontent.com/ebc5f79440b014691fb554090298eba5bbcce45f4b613db6c8658b411c4ddb4f/68747470733a2f2f70726f66696c652d636f756e7465722e676c697463682e6d652f6b6974616a696d61323931302f636f756e742e7376673f"
-                                data-canonical-src="https://profile-counter.glitch.me/kitajima2910/count.svg?"
-                                alt="Virtual Numbers" />
+                            <div align="center">
+                                <img src="https://profile-counter.glitch.me/kitajima2910/count.svg?" alt="Virtual Numbers" />
+                            </div>
                         </picture>
                     </div>
                 </Link>
@@ -25,6 +25,9 @@ const Menu = () => {
                 )}</NavLink>
                 <NavLink to="/Tools">{({ isActive, isPending, isTransitioning }) => (
                     <span className={isActive ? "active" : ""}>Tools</span>
+                )}</NavLink>
+                <NavLink to="/Pages">{({ isActive, isPending, isTransitioning }) => (
+                    <span className={isActive ? "active" : ""}>Pages</span>
                 )}</NavLink>
             </div>
             <div className="contacts">

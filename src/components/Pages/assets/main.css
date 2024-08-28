@@ -1,0 +1,28 @@
+.Pages .list-pages-demo {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+
+    /* margin-top: 35px; */
+}
+
+.Pages .list-pages-demo a {
+    width: 100%;
+    height: 166px;
+    border: 2px dashed rgba(1, 162, 232, 1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgba(1, 162, 232, 1);
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.Pages .list-pages-demo a {
+    color: rgba(1, 162, 232, 1);
+    text-decoration: none;
+    border-radius: 10px;
+}

@@ -4,7 +4,7 @@ const Tools = () => {
 
     return (
         <>
-            <div>Tools Nè!</div>
+            <div>Tools nè!</div>
         </>
     )
 }

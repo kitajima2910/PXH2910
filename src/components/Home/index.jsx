@@ -9,11 +9,11 @@ const Home = () => {
     const localtion = useLocation()
     const navigate = useNavigate()
 
-    document.title = "Home . PXH2910"
-
     useEffect(() => {
         if (localtion.pathname === "/") {
             navigate("/Games");
+        } else {
+            // document.title = "Home . PXH2910"
         }
     }, [localtion, navigate])
 
