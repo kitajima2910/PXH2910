@@ -1,5 +1,16 @@
 const DATA_HTML_CSS_JS = [
     {
+        img: "./assets/imgs/Runner.PNG",
+        tutorial: `
+            <span>Space: nhảy</span>
+            <span>Arrow Left / S: đi sang trái</span>
+            <span>Arrow right / D: đi sang phải</span>
+            `,
+        title: "Runner",
+        platform: "Website",
+        live: "./assets/html/Runner/index.html"
+    },
+    {
         img: "./assets/imgs/Platformer.PNG",
         tutorial: `
             <span>Arrow Up: nhảy</span>
