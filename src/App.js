@@ -9,6 +9,7 @@ import Games from './components/Games';
 import Tools from './components/Tools';
 import Pages from "./components/Pages";
 import Gallery from './components/Gallery';
+// import PortfolioArtKidGarden from './components/Portfolio_Art_Kid_Garden';
 
 const router = createBrowserRouter([
 	{
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
 				element: <Pages /> ,
 				children: [
 					{ path: "Gallery", element: <Gallery /> },
+					// { path: "Portfolio_Art_Kid_Garden", element: <PortfolioArtKidGarden /> },
 				]
 			},
 

@@ -20,6 +20,7 @@ const Pages = () => {
 
             {location.pathname === "/Pages" && <div className="list-pages-demo">
                 <Link to="/Pages/Gallery">Gallery</Link>
+                <Link to="/assets/html/Portfolio-Art-Kid-Garden/index.html" target="_blank">Portfolio Art Kid Garden</Link>
             </div>}
             <div className="content-children">
                 <Outlet />

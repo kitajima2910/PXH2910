@@ -1,0 +1,24 @@
+#wrapper-slideshow {
+    background-size: auto;
+    background-color: #05051E;
+    overflow: hidden;
+    color: white;
+}
+
+#wrapper-slideshow a {
+    color: #ffa;
+}
+
+#wrapper-slideshow button {
+    display: none;
+}
+
+#wrapper-slideshow .port-highlights img {
+    border: solid black;
+    height: 287px;
+    width: auto;
+    max-width: none;
+    background: rgba(211, 255, 212, 0.25);
+    padding: 12px;
+    border: solid 1px #fff5;
+}
