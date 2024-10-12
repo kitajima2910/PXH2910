@@ -1,0 +1,29 @@
+.wrapper-get-youtube-video-thumbnail-image {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.wrapper-get-youtube-video-thumbnail-image #url {
+    width: 40%;
+    height: 20px;
+    margin-bottom: 20px;
+
+    outline: none;
+}
+
+.wrapper-get-youtube-video-thumbnail-image #get {
+    width: 100px;
+    height: 26px;
+} 
+
+.wrapper-get-youtube-video-thumbnail-image img {
+    width: 100%;
+}
+
+.wrapper-get-youtube-video-thumbnail-image .images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
