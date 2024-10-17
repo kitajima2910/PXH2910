@@ -1,5 +1,17 @@
 const DATA_HTML_CSS_JS = [
     {
+        img: "./assets/imgs/Shooting-Game.png",
+        tutorial: `
+            <span>(A W S D): di chuyển</span>
+            <span>Arrow (Up Down Left Right): di chuyển</span>
+            <span>Chuột: để điều hướng</span>
+            <span>Chuột trái: bắn</span>
+            `,
+        title: "Shooting Game",
+        platform: "Website",
+        live: "./assets/html/Shooting-Game/index.html"
+    },
+    {
         img: "./assets/imgs/Runner.png",
         tutorial: `
             <span>Space: nhảy</span>
