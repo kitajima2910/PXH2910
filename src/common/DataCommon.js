@@ -1,5 +1,14 @@
 const DATA_HTML_CSS_JS = [
     {
+        img: "./assets/imgs/Web-Virtual-Gamepad.png",
+        tutorial: `
+            <span>Sử dụng mouse or touch để test</span>
+            `,
+        title: "Web Virtual Gamepad",
+        platform: "Website / Mobile",
+        live: "./assets/html/Web-Virtual-Gamepad/index.html"
+    },
+    {
         img: "./assets/imgs/Shooting-Game.png",
         tutorial: `
             <span>(A W S D): di chuyển</span>
