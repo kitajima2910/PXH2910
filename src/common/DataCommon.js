@@ -1,5 +1,15 @@
 const DATA_HTML_CSS_JS = [
     {
+        img: "./assets/imgs/Space-Invaders.png",
+        tutorial: `
+            <span>Sử dụng mũi tên trái/phải di chuyển</span>
+            <span>Space: bắn</span>
+            `,
+        title: "Space Invaders",
+        platform: "Website",
+        live: "./assets/html/Space-Invaders/index.html"
+    },
+    {
         img: "./assets/imgs/Web-Virtual-Gamepad.png",
         tutorial: `
             <span>Sử dụng mouse or touch để test</span>
