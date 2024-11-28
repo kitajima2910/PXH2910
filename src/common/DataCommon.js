@@ -1,5 +1,14 @@
 const DATA_HTML_CSS_JS = [
     {
+        img: "./assets/imgs/Avoid-Falling-Blocks.png",
+        tutorial: `
+            <span>Sử dụng chuột/touch giữ im kéo qua lại</span>
+            `,
+        title: "Avoid Falling Blocks",
+        platform: "Website / Mobile",
+        live: "./assets/html/Avoid-Falling-Blocks/index.html"
+    },
+    {
         img: "./assets/imgs/Space-Invaders.png",
         tutorial: `
             <span>Sử dụng mũi tên trái/phải di chuyển</span>
