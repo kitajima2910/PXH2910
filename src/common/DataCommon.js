@@ -2,7 +2,7 @@ const DATA_HTML_CSS_JS = [
     {
         img: "./assets/imgs/Avoid-Falling-Blocks.png",
         tutorial: `
-            <span>Sử dụng chuột/touch giữ im kéo qua lại</span>
+            <span>Sử dụng mouse/touch giữ im kéo qua lại</span>
             `,
         title: "Avoid Falling Blocks",
         platform: "Website / Mobile",
