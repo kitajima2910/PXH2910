@@ -1,6 +1,6 @@
 const DATA_HTML_CSS_JS = [
     {
-        img: "./assets/imgs/Demo_Keyboard_For_Menu.png",
+        img: "./assets/imgs/Demo_Keyboard_For_Menu.PNG",
         tutorial: `
             <span>Sử dụng keyboard theo demo</span>
             `,
