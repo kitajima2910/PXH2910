@@ -1,5 +1,14 @@
 const DATA_HTML_CSS_JS = [
     {
+        img: "./assets/imgs/Avoid-Falling-Blocks-V2.png",
+        tutorial: `
+            <span>Sử dụng mouse/touch giữ im kéo qua lại</span>
+            `,
+        title: "Avoid Falling Blocks V2",
+        platform: "Website / Mobile",
+        live: "./assets/html/Avoid-Falling-Blocks-V2/index.html"
+    },
+    {
         img: "./assets/imgs/Demo_Keyboard_For_Menu.PNG",
         tutorial: `
             <span>Sử dụng keyboard theo demo</span>
