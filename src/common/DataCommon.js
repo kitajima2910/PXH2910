@@ -1,5 +1,14 @@
 const DATA_HTML_CSS_JS = [
     {
+        img: "./assets/imgs/Side_Scrolling_Games.png",
+        tutorial: `
+            <span>touch (tap, swipe) / keyboard (enter, shift) </span>
+            `,
+        title: "Side Scrolling Games",
+        platform: "Website / Mobile",
+        live: "./assets/html/Side_Scrolling_Games/index.html"
+    },
+    {
         img: "./assets/imgs/Avoid-Falling-Blocks-V2.png",
         tutorial: `
             <span>Sử dụng mouse/touch giữ im kéo qua lại</span>
