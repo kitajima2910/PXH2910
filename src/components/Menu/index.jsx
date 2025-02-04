@@ -29,6 +29,9 @@ const Menu = () => {
                 <NavLink to="/Pages">{({ isActive, isPending, isTransitioning }) => (
                     <span className={isActive ? "active" : ""}>Pages</span>
                 )}</NavLink>
+                <NavLink to="/Code">{({ isActive, isPending, isTransitioning }) => (
+                    <span className={isActive ? "active" : ""}>Code</span>
+                )}</NavLink>
             </div>
             <div className="contacts">
                 <Link to="https://www.facebook.com/kitajima2910" target="_blank">

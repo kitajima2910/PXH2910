@@ -9,6 +9,7 @@ import Games from './components/Games';
 import Tools from './components/Tools';
 import Pages from "./components/Pages";
 import Gallery from './components/Gallery';
+import Code from './components/Code';
 import GetYoutubeVideoThumbnailImage from './components/Get_Youtube_Video_Thumbnail_Image';
 // import PortfolioArtKidGarden from './components/Portfolio_Art_Kid_Garden';
 
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
 					// { path: "Portfolio_Art_Kid_Garden", element: <PortfolioArtKidGarden /> },
 				]
 			},
+			{
+				path: "Code",
+				element: <Code />
+			}
 
 		]
 
