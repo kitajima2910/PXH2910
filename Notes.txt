@@ -1,0 +1,8 @@
+Tạo file jks:
+	keytool -genkeypair -alias pxh2910 -keyalg RSA -keysize 2048 -keystore PXH2910.jks -validity 9125
+
+Đăng ký:
+	apksigner sign --ks PXH2910.jks --ks-key-alias pxh2910 --ks-pass pass:123456 --key-pass pass:123456 --v2-signing-enabled true --v3-signing-enabled true --v4-signing-enabled true --out app-release-signed.apk app-release-unsigned.apk
+
+Kiểm tra:
+	jarsigner -verify -verbose -certs app-release-signed.apk
