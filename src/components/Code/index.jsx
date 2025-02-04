@@ -10,34 +10,19 @@ const Code = () => {
     return (
         <>
             <div className="Code">
-                <div className="item">
+                <div
+                    className="item"
+                    style={{
+                        backgroundImage:
+                            "url(/assets/imgs/codepen/HTML5_Canvas_CRASH_COURSE_for_Beginners.gif)",
+                        backgroundPosition: "center center",
+                        backgroundSize: "cover",
+                        backgroundRepeat: "no-repeat",
+                    }}
+                >
                     <Link
                         to="/assets/html/codepen/HTML5_Canvas_CRASH_COURSE_for_Beginners/index.html"
                         target="_blank"
-                        // onClick={(e) => {
-                        //     e.preventDefault();
-                        //     // window.open(
-                        //     //     "https://codesandbox.io/p/sandbox/html5-canvas-crash-course-for-beginners-kmxw2j",
-                        //     //     "PopupWindow",
-                        //     //     "width=100, height=100, left=0, top=0"
-                        //     // );
-                        //     window.open(
-                        //         "https://codesandbox.io/p/sandbox/html5-canvas-crash-course-for-beginners-kmxw2j",
-                        //         "PopupWindow",
-                        //         "width=" +
-                        //             window.screen.width * 0.6 +
-                        //             ",height=" +
-                        //             window.screen.height * 0.6 +
-                        //             ",left=" +
-                        //             (window.screen.width -
-                        //                 window.screen.width * 0.6) /
-                        //                 2 +
-                        //             ",top=" +
-                        //             (window.screen.height -
-                        //                 window.screen.height * 0.6) /
-                        //                 2
-                        //     );
-                        // }}
                     >
                         HTML5 Canvas CRASH COURSE for Beginners
                     </Link>

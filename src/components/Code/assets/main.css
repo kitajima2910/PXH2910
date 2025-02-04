@@ -19,7 +19,7 @@
 .Code .item {
     width: 100px;
     height: 100px;
-    border: 2px dashed rgba(255, 128, 40, 1);
+    /* border: 2px dashed rgba(255, 128, 40, 1); */
     border-radius: 50%;
 
     display: flex;
@@ -28,16 +28,16 @@
 
     text-align: center;
 
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 
     padding: 5px;
 
     cursor: pointer;
 
-    color: rgba(255, 128, 40, 1);
+    color: rgba(255, 255, 255, 1);
 }
 
 .Code .item a {
     text-decoration: none;
-    color: rgba(255, 128, 40, 1);
+    color: rgba(255, 255, 255, 1);
 }
