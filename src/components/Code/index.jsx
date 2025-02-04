@@ -2,6 +2,17 @@ import { Link } from "react-router-dom";
 import "./assets/main.css";
 import { useEffect } from "react";
 
+const URLS = {
+    nameUrl: [
+        "Matrix_Rain_Experiments",
+        "HTML5_Canvas_CRASH_COURSE_for_Beginners",
+    ],
+    nameUrlText: [
+        "Matrix Rain Experiments",
+        "HTML5 Canvas CRASH COURSE for Beginners",
+    ],
+};
+
 const Code = () => {
     useEffect(() => {
         document.title = "Code . PXH2910";
@@ -10,7 +21,7 @@ const Code = () => {
     return (
         <>
             <div className="Code">
-                <div
+                {/* <div
                     className="item"
                     style={{
                         backgroundImage:
@@ -26,29 +37,27 @@ const Code = () => {
                     >
                         HTML5 Canvas CRASH COURSE for Beginners
                     </Link>
-                </div>
-                <div className="item">2</div>
-                <div className="item">3</div>
-                <div className="item">4</div>
-                <div className="item">5</div>
+                </div> */}
 
-                <div className="item">6</div>
-                <div className="item">7</div>
-                <div className="item">8</div>
-                <div className="item">9</div>
-                <div className="item">10</div>
-
-                <div className="item">11</div>
-                <div className="item">12</div>
-                <div className="item">13</div>
-                <div className="item">14</div>
-                <div className="item">15</div>
-
-                <div className="item">16</div>
-                <div className="item">17</div>
-                <div className="item">18</div>
-                <div className="item">19</div>
-                <div className="item">20</div>
+                {URLS.nameUrl.map((item, index) => (
+                    <div
+                        key={`${item}-${index}`}
+                        className="item"
+                        style={{
+                            backgroundImage: `url(/assets/imgs/codepen/${item}.gif)`,
+                            backgroundPosition: "center center",
+                            backgroundSize: "cover",
+                            backgroundRepeat: "no-repeat",
+                        }}
+                    >
+                        <Link
+                            to={`/assets/html/codepen/${item}/index.html`}
+                            target="_blank"
+                        >
+                            {URLS.nameUrlText[index]}
+                        </Link>
+                    </div>
+                ))}
             </div>
         </>
     );

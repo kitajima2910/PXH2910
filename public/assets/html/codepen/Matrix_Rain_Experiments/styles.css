@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Space Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#canvas1 {
+    position: absolute;
+    top: 5%;
+    left: 0;
+}
+
+body {
+    overflow: hidden;
+    background-color: black;
+}
