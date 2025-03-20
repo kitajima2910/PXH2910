@@ -35,6 +35,7 @@ const Pages = () => {
         <div className="Pages">
 
             {location.pathname === "/Pages" && <div className="list-pages-demo">
+                <Link to="/assets/html/sub_website/pricing_table/index.html" target="_blank">Pricing Table</Link>
                 <Link to="/assets/html/sub_website/portfolio_pxh2910_v01/index.html" target="_blank">Portfolio</Link>
                 <Link to="/assets/html/sub_website/drum_kit/index.html" target="_blank">Drum Kit</Link>
                 <Link to="/assets/html/Portfolio-Art-Kid-Garden/index.html" target="_blank">Portfolio Art Kid Garden</Link>
