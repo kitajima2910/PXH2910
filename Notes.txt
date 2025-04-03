@@ -3,6 +3,7 @@ Tạo file jks:
 
 Đăng ký:
 	apksigner sign --ks PXH2910.jks --ks-key-alias pxh2910 --ks-pass pass:123456 --key-pass pass:123456 --v2-signing-enabled true --v3-signing-enabled true --v4-signing-enabled true --out app-release-signed.apk app-release-unsigned.apk
-
+	
+	jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 -keystore PXH2910.jks -storepass 123456 -keypass 123456 PXH2910.aab pxh2910
 Kiểm tra:
 	jarsigner -verify -verbose -certs app-release-signed.apk
